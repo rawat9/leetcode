@@ -9,7 +9,7 @@
 	<a href="https://leetcode.com/anuragsrawat/">
 		<img alt="Profile" src="https://img.shields.io/badge/Leetcode-Profile-yellow?style=flat&logo=leetcode">
 	</a>
-	<a href="https://github.com/rawat9/leetcode/pulse">
+	<a href="https://github.com/rawat9/Leetcode/pulse">
 		<img src="https://img.shields.io/github/last-commit/rawat9/Hackerrank">
 	</a>
 	<br>
