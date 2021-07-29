@@ -1,6 +1,6 @@
 <p align="center">  
 	<br>
-        <img height=180 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F0%2F0a%2FLeetCode_Logo_black_with_text.svg%2F1200px-LeetCode_Logo_black_with_text.svg.png&f=1&nofb=1"> 
+    <img height=180 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F0%2F0a%2FLeetCode_Logo_black_with_text.svg%2F1200px-LeetCode_Logo_black_with_text.svg.png&f=1&nofb=1"> 
 	<br>
 </p>
 
@@ -14,7 +14,6 @@
 	</a>
 	<br>
 </p>
-
 
 <table style="width:100%">
   <tr>
@@ -33,7 +32,7 @@
 		<code>Array</code>
 		<code>Hash Table</code>
 	</td>
-    <td><a href="">Solution</a></td>
+    <td><a href="https://github.com/rawat9/Leetcode/tree/main/Arrays/Two%20Sum">Solution</a></td>
   </tr>
 
   <tr>
@@ -48,7 +47,7 @@
 		<code>Array</code>
 		<code>Two Pointers</code>
 	</td>
-    <td><a href="">Solution</a></td>
+    <td><a href="https://github.com/rawat9/Leetcode/tree/main/Arrays/Remove%20Element">Solution</a></td>
   </tr>
 
   <tr>
@@ -63,7 +62,7 @@
 		<code>Array</code>
 		<code>Binary Search</code>
 	</td>
-    <td><a href="">Solution</a></td>
+    <td><a href="https://github.com/rawat9/Leetcode/tree/main/Arrays/Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array">Solution</a></td>
   </tr>
 
 </table>
