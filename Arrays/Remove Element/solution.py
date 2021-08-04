@@ -7,3 +7,5 @@ class Solution:
                 nums[j] = nums[i]
                 j += 1
         return j
+
+# Time Complexity = O(N), where N is the length of nums
