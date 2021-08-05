@@ -7,3 +7,6 @@ class Solution:
                 return [ht[nums[i]], i]
             else:
                 ht[target - nums[i]] = i
+
+
+# Time Complexity = O(N)
