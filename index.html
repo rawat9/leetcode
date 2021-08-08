@@ -92,24 +92,25 @@
 	<!-- TABLE -->
 
 	<div class="row py-5">
-		<div class="col-lg-10 mx-auto">
+		<div class="col-lg-11 mx-auto">
 		  <div class="card rounded shadow border-0">
 			<div class="card-body p-5 bg-white rounded">
 			  <div class="table-responsive">
-				<table class="tablesorter"
+				<table
 				data-toggle="table"
 				data-search="true" 
-				data-show-pagination-switch="true"
 				data-show-columns="true"
-				style="width: 100%;" >
+				data-show-export="true"
+				data-show-pagination-switch="true"
+				style="width: 100%;">
 					<thead>
 						<tr>
-							<th data-sortable="true" data-sorter="shortDate">Date</th>
-							<th>Question</th>
-							<th data-sortable="true">Difficulty</th>
-							<th>Tags</th>
-							<th>Solution(s)</th>
-							<th>Big O</th>
+							<th data-sortable="true" data-align="center">Date</th>
+							<th data-align="center">Question</th>
+							<th data-sortable="true" data-align="center">Difficulty</th>
+							<th data-align="center">Tags</th>
+							<th data-align="center">Solution(s)</th>
+							<th data-align="center">Big O</th>
 						</tr>
 					</thead>
 
@@ -463,23 +464,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
 
-	<script>
-		$(function() {
-			// call the tablesorter plugin
-			$("table").tablesorter({
-				theme : 'blue',
-
-				dateFormat : "ddmmyyyy", // set the default date format
-
-				// or to change the format for specific columns, add the dateFormat to the headers option:
-				headers: {
-				0: { sorter: "shortDate" } //, dateFormat will parsed as the default above
-				// 1: { sorter: "shortDate", dateFormat: "ddmmyyyy" }, // set day first format; set using class names
-				// 2: { sorter: "shortDate", dateFormat: "yyyymmdd" }  // set year first format; set using data attributes (jQuery data)
-				}
-
-			});
-			});
-	</script>
-  </body>
+	<!-- Export -->
+	<script src="https://cdn.jsdelivr.net/npm/tableexport.jquery.plugin@1.10.21/tableExport.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/tableexport.jquery.plugin@1.10.21/libs/jsPDF/jspdf.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/tableexport.jquery.plugin@1.10.21/libs/jsPDF-AutoTable/jspdf.plugin.autotable.js"></script>
+	<script src="https://unpkg.com/bootstrap-table@1.18.3/dist/extensions/export/bootstrap-table-export.min.js"></script>
+</body>
 </html>
