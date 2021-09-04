@@ -1,4 +1,4 @@
-<div>
+<div align="center">
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fleetcode.com%2Fstatic%2Fimages%2FLeetCode_logo.png&f=1&nofb=1">
 </div>
 
