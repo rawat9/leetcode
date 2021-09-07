@@ -16,6 +16,55 @@
 <tbody>
 <!-- ARRAYS -->
 <tr>
+	<td align="center"><a href="https://leetcode.com/problems/contains-duplicate-ii/">Contains Duplicate II</a>⚠️</td>
+	<td align="center">Easy</td>
+	<td align="center">
+	  <code>Array</code>
+	  <code>Hash Table</code>
+	  <code>Sliding Window</code>
+	</td>
+	<td align="center">
+		<a href="https://github.com/rawat9/leetcode/blob/main/Hash%20Table/Contains%20Duplicate%20II/solution.py">Solution</a></td>
+	<td align="center"><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td align="center"><a href="https://leetcode.com/problems/contains-duplicate">Contains Duplicate</a></td>
+	<td align="center">Easy</td>
+	<td align="center">
+	  <code>Array</code>
+	  <code>Hash Table</code>
+	  <code>Sorting</code>
+	</td>
+	<td align="center">
+		<a href="https://github.com/rawat9/leetcode/blob/main/Hash%20Table/Contains%20Duplicate/solution.py">Solution</a></td>
+	<td align="center"><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td align="center"><a href="https://leetcode.com/problems/majority-element/">Majority Element</a></td>
+	<td align="center">Easy</td>
+	<td align="center">
+		<code>Array,</code>
+		<code>Hash Table</code>
+		<code>Divide and Conquer</code>
+		<code>Sorting</code>
+		<code>Counting</code>
+	</td>
+	<td align="center"><a href="https://github.com/rawat9/leetcode/blob/main/Arrays/Majority%20Element/solution1.py">Solution1, </a>
+	<a href="https://github.com/rawat9/leetcode/blob/main/Arrays/Majority%20Element/solution2.py">Solution2, </a>
+	<a href="https://github.com/rawat9/leetcode/blob/main/Arrays/Majority%20Element/solution3.py">Solution3, </a>
+	<a href="https://github.com/rawat9/leetcode/blob/main/Arrays/Majority%20Element/solution4.py">Solution4</a>
+	</td>
+	<td align="center">
+		<code>O(n)</code>
+		<code>O(nlogn)</code>
+		<code>O(n)</code>
+		<code>O(n)</code>
+	</td>
+</tr>
+
+<tr>
 	<td align="center"><a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/">Kids With the Greatest Number of Candies</a></td>
 	<td align="center">Easy</td>
 	<td align="center">
@@ -333,4 +382,3 @@
 </tr>
 </tbody>
 </table>
-
