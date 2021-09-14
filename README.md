@@ -38,7 +38,7 @@
 <tr>
 	<td><a href="https://leetcode.com/problems/contains-duplicate">Contains Duplicate</a></td>
 	<td align="center">Easy</td>
-	<td align="center">
+	<td>
 		<a href="">Python</a></td>
 	<td><code>O(1)</code></td>
 	<td><code></code></td>
@@ -296,7 +296,7 @@
 	<td align="center">Easy</td>
 	<td><a href="">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code>O(n)</code></td>
+	<td><code></code></td>
 </tr>
 
 <tr>
