@@ -5,6 +5,7 @@
 	<img src="https://img.shields.io/badge/language-Python-blue"></img>
 </div>
 <br>
+<hr>
 
 <table>
 	<thead>
