@@ -1,5 +1,5 @@
 <div align="center">
-	<img width="500" src="https://techeliteindia.in/img/companies/leetcode.png">
+	<img width="400" src="https://techeliteindia.in/img/companies/leetcode.png">
 </div>
 <div align="center">
 	<img src="https://img.shields.io/badge/language-Python-blue"></img>
