@@ -249,12 +249,10 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Solution1</td>
+	<td><a href="">Python</td>
 	<td><code>O(n)</code></td>
 	<td><code></code></td>
 </tr>
-
-<!-- STRINGS -->
 
 <tr>
 	<td>
