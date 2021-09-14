@@ -14,7 +14,21 @@
 	</thead>
 
 <tbody>
-<!-- ARRAYS -->
+
+<tr>
+	<td align="center"><a href="https://leetcode.com/problems/first-unique-character-in-a-string/">First Unique Character in a String</a>⚠️</td>
+	<td align="center">Easy</td>
+	<td align="center">
+	  <code>Counting</code>
+	  <code>Hash Table</code>
+	  <code>Queue</code>
+	  <code>String</code>
+	</td>
+	<td align="center">
+		<a href="#">Solution</a></td>
+	<td align="center"><code>O(n)</code></td>
+</tr>
+
 <tr>
 	<td align="center"><a href="https://leetcode.com/problems/contains-duplicate-ii/">Contains Duplicate II</a>⚠️</td>
 	<td align="center">Easy</td>
