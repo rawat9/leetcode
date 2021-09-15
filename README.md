@@ -22,6 +22,7 @@
 <tbody>
 
 <tr>
+	<td>26</td>
 	<td><a href="https://leetcode.com/problems/first-unique-character-in-a-string/">First Unique Character in a String</a></td>
 	<td align="center">Easy</td>
 	<td>
@@ -32,7 +33,8 @@
 </tr>
 
 <tr>
-	<td><a href="https://leetcode.com/problems/contains-duplicate-ii/">Contains Duplicate II</a> 🔴</td>
+	<td>25</td>
+	<td><a href="https://leetcode.com/problems/contains-duplicate-ii/">Contains Duplicate II</a> ❗️</td>
 	<td align="center">Easy</td>
 	<td>
 		<a href="">Python</a>
@@ -55,7 +57,7 @@
 	<td>23</td>
 	<td><a href="https://leetcode.com/problems/majority-element/">Majority Element</a></td>
 	<td align="center">Easy</td>
-	<td><a href="https://github.com/rawat9/leetcode/blob/main/Arrays/Majority%20Element/solution1.py">Python</a>
+	<td><a href="">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code></code></td>	
@@ -63,10 +65,10 @@
 
 <tr>
 	<td>22</td>
-	<td><a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/">Kids With the Greatest Number of Candies</a></td>
+	<td><a href="">Kids With the Greatest Number of Candies</a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="https://github.com/rawat9/Leetcode/blob/main/Arrays/Kids%20With%20the%20Greatest%20Number%20of%20Candies/solution.py">Python
+		<a href="">Python
 	</a></td>
 	<td><code>O(1)</code></td>
 	<td><code></code></td>
@@ -95,7 +97,7 @@
 	<td><a href="https://leetcode.com/problems/two-sum/">Two Sum</a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="https://github.com/rawat9/Leetcode/blob/main/Arrays/Two%20Sum/">Python
+		<a href="">Python
  	</a>
 	</td>
 	<td><code>O(n<sup>2</sup>), O(n)</code></td>
@@ -165,7 +167,7 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="https://github.com/rawat9/leetcode/blob/main/Arrays/Running%20Sum%20of%201d%20Array/">Python</a></td>
+	<td><a href="">Python</a></td>
 	<td><code>O(n)</code></td>
 	<td><code></code></td>
 </tr>
@@ -308,7 +310,7 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="https://github.com/rawat9/leetcode/blob/main/Strings/Determine%20if%20String%20Halves%20Are%20Alike/solution.py">Python</a></td>
+	<td><a href="">Python</a></td>
 	<td><code>O(n)</code></td>
 	<td><code></code></td>
 </tr>
