@@ -16,17 +16,17 @@
 <tbody>
 
 <tr>
-	<td><a href="https://leetcode.com/problems/first-unique-character-in-a-string/">First Unique Character in a String</a> ⚠️</td>
+	<td><a href="https://leetcode.com/problems/first-unique-character-in-a-string/">First Unique Character in a String</a></td>
 	<td align="center">Easy</td>
 	<td>
 		<a href="#">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
-	<td><a href="https://leetcode.com/problems/contains-duplicate-ii/">Contains Duplicate II</a> ⚠️</td>
+	<td><a href="https://leetcode.com/problems/contains-duplicate-ii/">Contains Duplicate II</a> 🔴</td>
 	<td align="center">Easy</td>
 	<td>
 		<a href="">Python</a>
