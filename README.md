@@ -1,10 +1,16 @@
 <div align="center">
-<img width="500" src="https://techeliteindia.in/img/companies/leetcode.png">
+	<img width="400" src="https://techeliteindia.in/img/companies/leetcode.png">
 </div>
+<div align="center">
+	<img src="https://img.shields.io/badge/language-Python-blue"></img>
+</div>
+<br>
+<hr>
 
 <table>
 	<thead>
 	<tr>
+		<th data-align="center">#</th>
 		<th data-align="center">Question</th>
 		<th data-align="center">Difficulty</th>
 		<th data-align="center">Solution(s)</th>
@@ -36,15 +42,17 @@
 </tr>
 
 <tr>
+	<td>24</td>
 	<td><a href="https://leetcode.com/problems/contains-duplicate">Contains Duplicate</a></td>
 	<td align="center">Easy</td>
-	<td align="center">
+	<td>
 		<a href="">Python</a></td>
 	<td><code>O(1)</code></td>
 	<td><code></code></td>
 </tr>
 
 <tr>
+	<td>23</td>
 	<td><a href="https://leetcode.com/problems/majority-element/">Majority Element</a></td>
 	<td align="center">Easy</td>
 	<td><a href="https://github.com/rawat9/leetcode/blob/main/Arrays/Majority%20Element/solution1.py">Python</a>
@@ -54,6 +62,7 @@
 </tr>
 
 <tr>
+	<td>22</td>
 	<td><a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/">Kids With the Greatest Number of Candies</a></td>
 	<td align="center">Easy</td>
 	<td>
@@ -64,6 +73,7 @@
 </tr>
 
 <tr>
+	<td>21</td>
 	<td><a href="https://leetcode.com/problems/single-number/">Single Number</a></td>
 	<td align="center">Easy</td>
 	<td><a href="">Python</a></td>
@@ -72,6 +82,7 @@
 </tr>
 
 <tr>
+	<td>20</td>
 	<td><a href="https://leetcode.com/problems/search-insert-position/">Search Insert Position</a></td>
 	<td align="center">Easy</td>
 	<td><a href="">Python</a></td>
@@ -80,6 +91,7 @@
 </tr>
 
 <tr>
+	<td>19</td>
 	<td><a href="https://leetcode.com/problems/two-sum/">Two Sum</a></td>
 	<td align="center">Easy</td>
 	<td>
@@ -91,6 +103,7 @@
 </tr>
 
 <tr>
+	<td>18</td>
 	<td>
 		<a href="https://leetcode.com/problems/remove-element/">
 			Remove Element
@@ -103,6 +116,7 @@
 </tr>
 
 <tr>
+	<td>17</td>
 	<td>
 		<a href="">
 			Find First and Last Position of Element in Sorted Array
@@ -118,6 +132,7 @@
 </tr>
 
 <tr>
+	<td>16</td>
 	<td>
 		<a href="https://leetcode.com/problems/shuffle-the-array/">
 			Shuffle the Array
@@ -130,6 +145,7 @@
 </tr>
 
 <tr>
+	<td>15</td>
 	<td>
 		<a href="https://leetcode.com/problems/concatenation-of-array/">
 			Concatenation of Array
@@ -142,6 +158,7 @@
 </tr>
 
 <tr>
+	<td>14</td>
 	<td>
 		<a href="https://leetcode.com/problems/running-sum-of-1d-array/">
 			Running Sum of 1d Array
@@ -154,6 +171,7 @@
 </tr>
 
 <tr>
+	<td>13</td>
 	<td>
 		<a href="https://leetcode.com/problems/find-numbers-with-even-number-of-digits/">
 			Find Numbers with Even Number of Digits
@@ -166,6 +184,7 @@
 </tr>
 
 <tr>
+	<td>12</td>
 	<td>
 		<a href="https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/">
 			Minimum Operations to Make the Array Increasing
@@ -178,6 +197,7 @@
 </tr>
 
 <tr>
+	<td>11</td>
 	<td>
 		<a href="https://leetcode.com/problems/sum-of-unique-elements/">
 			Sum of Unique Elements
@@ -190,6 +210,7 @@
 </tr>
 
 <tr>
+	<td>10</td>
 	<td>
 		<a href="https://leetcode.com/problems/squares-of-a-sorted-array/">
 			Squares of a Sorted Array
@@ -202,6 +223,7 @@
 </tr>
 
 <tr>
+	<td>9</td>
 	<td>
 		<a href="https://leetcode.com/problems/sign-of-the-product-of-an-array/">
 			Sign of the Product of an Array
@@ -214,6 +236,7 @@
 </tr>
 
 <tr>
+	<td>8</td>
 	<td>
 		<a href="https://leetcode.com/problems/binary-search/">
 			Binary Search
@@ -226,6 +249,7 @@
 </tr>
 
 <tr>
+	<td>7</td>
 	<td>
 		<a href="https://leetcode.com/problems/max-consecutive-ones/">
 			Max Consecutive Ones
@@ -238,20 +262,20 @@
 </tr>
 
 <tr>
+	<td>6</td>
 	<td>
 		<a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">
 			Best Time to Buy and Sell Stock
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Solution1</td>
+	<td><a href="">Python</td>
 	<td><code>O(n)</code></td>
 	<td><code></code></td>
 </tr>
 
-<!-- STRINGS -->
-
 <tr>
+	<td>5</td>
 	<td>
 		<a href="https://leetcode.com/problems/valid-parentheses/">
 			Valid Parentheses
@@ -264,6 +288,7 @@
 </tr>
 
 <tr>
+	<td>4</td>
 	<td>
 		<a href="https://leetcode.com/problems/to-lower-case/">
 			To Lower Case
@@ -276,6 +301,7 @@
 </tr>
 
 <tr>
+	<td>3</td>
 	<td>
 		<a href="https://leetcode.com/problems/determine-if-string-halves-are-alike/">
 			Determine if String Halves Are Alike
@@ -288,6 +314,7 @@
 </tr>
 
 <tr>
+	<td>2</td>
 	<td>
 		<a href="https://leetcode.com/problems/valid-palindrome/">
 			Valid Palindrome
@@ -296,10 +323,11 @@
 	<td align="center">Easy</td>
 	<td><a href="">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code>O(n)</code></td>
+	<td><code></code></td>
 </tr>
 
 <tr>
+	<td>1</td>
 	<td>
 		<a href="https://leetcode.com/problems/length-of-last-word/">
 			Length of Last Word
