@@ -22,11 +22,55 @@
 <tbody>
 
 <tr>
+	<td>30</td>
+	<td><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/">Remove Duplicates from Sorted List</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Remove%20Duplicates%20from%20Sorted%20List">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>29</td>
+	<td><a href="https://leetcode.com/problems/reverse-linked-list/">Reverse Linked List</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Reverse%20Linked%20List">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>28</td>
+	<td><a href="https://leetcode.com/problems/first-unique-character-in-a-string/">Implement Stack using Queues</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Implement%20Stack%20using%20Queues">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>27</td>
+	<td><a href="https://leetcode.com/problems/implement-queue-using-stacks/">Implement Queue using Stacks</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Implement%20Queue%20using%20Stacks">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>26</td>
 	<td><a href="https://leetcode.com/problems/first-unique-character-in-a-string/">First Unique Character in a String</a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="#">Python</a>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/First%20Unique%20Character%20in%20a%20String">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(1)</code></td>
@@ -57,10 +101,10 @@
 	<td>23</td>
 	<td><a href="https://leetcode.com/problems/majority-element/">Majority Element</a></td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Majority%20Element">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>	
+	<td><code>O(1)</code></td>	
 </tr>
 
 <tr>
@@ -97,11 +141,11 @@
 	<td><a href="https://leetcode.com/problems/two-sum/">Two Sum</a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="">Python
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Two%20Sum">Python
  	</a>
 	</td>
-	<td><code>O(n<sup>2</sup>), O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
 </tr>
 
 <tr>
