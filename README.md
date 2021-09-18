@@ -26,7 +26,7 @@
 	<td><a href="https://leetcode.com/problems/intersection-of-two-arrays/">Intersection of Two Arrays</a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="">Python</a>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Intersection%20of%20Two%20Arrays">Python</a>
 	</td>
 	<td><code>O(1)</code></td>
 	<td><code>O(n)</code></td>
@@ -37,7 +37,7 @@
 	<td><a href="https://leetcode.com/problems/intersection-of-two-arrays-ii/">Intersection of Two Arrays II</a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="">Python</a>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Intersection%20of%20Two%20Arrays%20II">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(n)</code></td>
@@ -48,7 +48,7 @@
 	<td><a href="https://leetcode.com/problems/valid-anagram/">Valid Anagram</a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="">Python</a>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Valid%20Anagram">Python</a>
 	</td>
 	<td><code>O(nlogn)</code></td>
 	<td><code>O(1)</code></td>
@@ -59,7 +59,7 @@
 	<td><a href="https://leetcode.com/problems/rotate-array/">Rotate Array</a></td>
 	<td align="center">Medium</td>
 	<td>
-		<a href="">Python</a>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Rotate%20Array">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(1)</code></td>
