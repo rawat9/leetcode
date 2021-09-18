@@ -22,6 +22,50 @@
 <tbody>
 
 <tr>
+	<td>34</td>
+	<td><a href="https://leetcode.com/problems/intersection-of-two-arrays/">Intersection of Two Arrays</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>33</td>
+	<td><a href="https://leetcode.com/problems/intersection-of-two-arrays-ii/">Intersection of Two Arrays II</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>32</td>
+	<td><a href="https://leetcode.com/problems/valid-anagram/">Valid Anagram</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="">Python</a>
+	</td>
+	<td><code>O(nlogn)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>31</td>
+	<td><a href="https://leetcode.com/problems/rotate-array/">Rotate Array</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>30</td>
 	<td><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/">Remove Duplicates from Sorted List</a></td>
 	<td align="center">Easy</td>
