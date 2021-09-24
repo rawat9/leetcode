@@ -14,4 +14,11 @@ class Solution:
             
         if p.val == q.val:
             return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
-            
+
+
+
+# Time Complexity:
+#     O(N) -> where N = number of nodes in the tree
+# Space Complexity: 
+#     O(log(N)) in the best case of completely balanced tree
+#     O(N) in the worst case of completely unbalanced tree, to keep a recursion stack.
