@@ -29,7 +29,7 @@
 		<a href="">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
-	<td><code>O(1)</code></td>
+	<td><code>O(n)</code></td>
 </tr>
 
 <tr>
