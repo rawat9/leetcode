@@ -22,6 +22,28 @@
 <tbody>
 
 <tr>
+	<td>37</td>
+	<td><a href="https://leetcode.com/problems/same-tree/">Same Tree</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>36</td>
+	<td><a href="https://leetcode.com/problems/implement-trie-prefix-tree/">Implement Trie (Prefix Tree)</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>35</td>
 	<td><a href="https://leetcode.com/problems/insert-into-a-binary-search-tree/">Insert into a Binary Search Tree</a></td>
 	<td align="center">Medium</td>
