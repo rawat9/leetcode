@@ -22,6 +22,17 @@
 <tbody>
 
 <tr>
+	<td>35</td>
+	<td><a href="https://leetcode.com/problems/insert-into-a-binary-search-tree/">Insert into a Binary Search Tree</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Insert%20into%20a%20Binary%20Search%20Tree">Python</a>
+	</td>
+	<td><code>O(logn)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>34</td>
 	<td><a href="https://leetcode.com/problems/intersection-of-two-arrays/">Intersection of Two Arrays</a></td>
 	<td align="center">Easy</td>
@@ -217,7 +228,7 @@
 		<a href="">Python
 	</a>
 	</td>
-	<td><code>O(log n)</code></td>
+	<td><code>O(logn)</code></td>
 	<td><code></code></td>
 </tr>
 
@@ -372,9 +383,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Valid%20Parentheses">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(n)</code></td>
 </tr>
 
 <tr>
@@ -385,9 +396,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/To%20Lower%20Case">Python</a></td>
 	<td><code>O(1)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
@@ -398,9 +409,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Determine%20if%20String%20Halves%20Are%20Alike">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
@@ -411,9 +422,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Valid%20Palindrome">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
@@ -424,9 +435,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Length%20of%20Last%20Word">Python</a></td>
 	<td><code>O(1)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 </tbody>
 </table>
