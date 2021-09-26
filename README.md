@@ -22,6 +22,94 @@
 <tbody>
 
 <tr>
+	<td>45</td>
+	<td><a href="https://leetcode.com/problems/merge-sorted-array/">Merge Sorted Array</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Merge%20Sorted%20Array">Python</a>
+	</td>
+	<td><code>O(nlogn)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>44</td>
+	<td><a href="https://leetcode.com/problems/maximum-subarray/">Maximum Subarray</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Maximum%20Subarray">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>43</td>
+	<td><a href="https://leetcode.com/contest/biweekly-contest-61/problems/count-number-of-pairs-with-absolute-difference-k/"></a>Count Number of Pairs With Absolute Difference K</td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Count%20Number%20of%20Pairs%20With%20Absolute%20Difference%20K">Python</a>
+	</td>
+	<td><code>O(2<sup>2</sup>)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>42</td>
+	<td><a href="https://leetcode.com/problems/fibonacci-number/">Fibonacci Number</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Fibonacci%20Number">Python</a>
+	</td>
+	<td><code>O(2<sup>2</sup>)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>41</td>
+	<td><a href="https://leetcode.com/problems/min-stack/">Min Stack</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Min%20Stack">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>40</td>
+	<td><a href="https://leetcode.com/problems/power-of-three/">Power of Three</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Power%20of%20Three">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>39</td>
+	<td><a href="https://leetcode.com/problems/move-zeroes/">Move Zeroes</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Move%20Zeroes">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>38</td>
+	<td><a href="https://leetcode.com/problems/number-of-good-pairs/">Number of Good Pairs</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Number%20of%20Good%20Pairs">Python</a>
+	</td>
+	<td><code>O(n<sup>2</sup>)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>37</td>
 	<td><a href="https://leetcode.com/problems/same-tree/">Same Tree</a></td>
 	<td align="center">Easy</td>
