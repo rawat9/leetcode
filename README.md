@@ -22,6 +22,17 @@
 <tbody>
 
 <tr>
+	<td>46</td>
+	<td><a href="https://leetcode.com/problems/palindrome-number/">Palindrome Number</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>45</td>
 	<td><a href="https://leetcode.com/problems/merge-sorted-array/">Merge Sorted Array</a></td>
 	<td align="center">Easy</td>
