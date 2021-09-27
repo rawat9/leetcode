@@ -45,12 +45,12 @@
 
 <tr>
 	<td>43</td>
-	<td><a href="https://leetcode.com/contest/biweekly-contest-61/problems/count-number-of-pairs-with-absolute-difference-k/"></a>Count Number of Pairs With Absolute Difference K</td>
+	<td><a href="https://leetcode.com/contest/biweekly-contest-61/problems/count-number-of-pairs-with-absolute-difference-k/">Count Number of Pairs With Absolute Difference K</a></td>
 	<td align="center">Easy</td>
 	<td>
 		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Count%20Number%20of%20Pairs%20With%20Absolute%20Difference%20K">Python</a>
 	</td>
-	<td><code>O(2<sup>2</sup>)</code></td>
+	<td><code>O(2<sup>n</sup>)</code></td>
 	<td><code>O(1)</code></td>
 </tr>
 
@@ -61,7 +61,7 @@
 	<td>
 		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Fibonacci%20Number">Python</a>
 	</td>
-	<td><code>O(2<sup>2</sup>)</code></td>
+	<td><code>O(2<sup>n</sup>)</code></td>
 	<td><code>O(n)</code></td>
 </tr>
 
