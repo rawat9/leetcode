@@ -22,6 +22,17 @@
 <tbody>
 
 <tr>
+	<td>47</td>
+	<td><a href="https://leetcode.com/problems/sort-array-by-parity-ii/">Sort Array By Parity II</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Sort%20Array%20By%20Parity%20II">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>46</td>
 	<td><a href="https://leetcode.com/problems/palindrome-number/">Palindrome Number</a></td>
 	<td align="center">Easy</td>
