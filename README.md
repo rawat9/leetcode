@@ -37,7 +37,7 @@
 	<td><a href="https://leetcode.com/problems/palindrome-number/">Palindrome Number</a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="">Python</a>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Palindrome%20Number">Python</a>
 	</td>
 	<td><code>O(1)</code></td>
 	<td><code>O(1)</code></td>
@@ -136,7 +136,7 @@
 	<td><a href="https://leetcode.com/problems/same-tree/">Same Tree</a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="">Python</a>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Same%20Tree">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(n)</code></td>
@@ -147,7 +147,7 @@
 	<td><a href="https://leetcode.com/problems/implement-trie-prefix-tree/">Implement Trie (Prefix Tree)</a></td>
 	<td align="center">Medium</td>
 	<td>
-		<a href="">Python</a>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Implement%20Trie%20(Prefix%20Tree)">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(n)</code></td>
