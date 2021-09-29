@@ -299,7 +299,7 @@
 	<td><a href="">Kids With the Greatest Number of Candies</a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="">Python
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Kids%20With%20the%20Greatest%20Number%20of%20Candies">Python
 	</a></td>
 	<td><code>O(1)</code></td>
 	<td><code>O(n)</code></td>
@@ -476,7 +476,7 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Binary%20Search">Python</a></td>
 	<td><code>O(log n)</code></td>
 	<td><code>O(1)</code></td>
 </tr>
