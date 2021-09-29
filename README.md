@@ -268,10 +268,10 @@
 	<td><a href="https://leetcode.com/problems/contains-duplicate-ii/">Contains Duplicate II</a> ❗️</td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="">Python</a>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Contains%20Duplicate%20II">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(n)</code></td>
 </tr>
 
 <tr>
@@ -279,9 +279,9 @@
 	<td><a href="https://leetcode.com/problems/contains-duplicate">Contains Duplicate</a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="">Python</a></td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Contains%20Duplicate">Python</a></td>
 	<td><code>O(1)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
@@ -302,25 +302,25 @@
 		<a href="">Python
 	</a></td>
 	<td><code>O(1)</code></td>
-	<td><code></code></td>
+	<td><code>O(n)</code></td>
 </tr>
 
 <tr>
 	<td>21</td>
 	<td><a href="https://leetcode.com/problems/single-number/">Single Number</a></td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Single%20Number">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
 	<td>20</td>
 	<td><a href="https://leetcode.com/problems/search-insert-position/">Search Insert Position</a></td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Search%20Insert%20Position">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
@@ -343,9 +343,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Remove%20Element">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
@@ -357,11 +357,11 @@
 	</td>
 	<td align="center">Medium</td>
 	<td>
-		<a href="">Python
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array">Python
 	</a>
 	</td>
 	<td><code>O(logn)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
@@ -372,9 +372,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Shuffle%20The%20Array">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(n)</code></td>
 </tr>
 
 <tr>
@@ -385,9 +385,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Concatenation%20of%20Array">Python</a></td>
 	<td><code>O(1)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
@@ -398,9 +398,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Running%20Sum%20of%201d%20Array">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(n)</code></td>
 </tr>
 
 <tr>
@@ -411,9 +411,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Find%20Numbers%20with%20Even%20Number%20of%20Digits">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(n)</code></td>
 </tr>
 
 <tr>
@@ -424,9 +424,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Minimum%20Operations%20to%20Make%20the%20Array%20Increasing">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
@@ -437,9 +437,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Sum%20of%20Unique%20Elements">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
@@ -450,9 +450,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Squares%20of%20a%20Sorted%20Array">Python</a></td>
 	<td><code>O(1)</code></td>
-	<td><code></code></td>
+	<td><code>O(n)</code></td>
 </tr>
 
 <tr>
@@ -463,9 +463,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Sign%20of%20the%20Product%20of%20an%20Array">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
@@ -478,7 +478,7 @@
 	<td align="center">Easy</td>
 	<td><a href="">Python</a></td>
 	<td><code>O(log n)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
@@ -489,9 +489,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</a></td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Max%20Consecutive%20Ones">Python</a></td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
@@ -502,9 +502,9 @@
 		</a>
 	</td>
 	<td align="center">Easy</td>
-	<td><a href="">Python</td>
+	<td><a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Best%20Time%20to%20Buy%20and%20Sell%20Stock">Python</td>
 	<td><code>O(n)</code></td>
-	<td><code></code></td>
+	<td><code>O(1)</code></td>
 </tr>
 
 <tr>
