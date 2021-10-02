@@ -22,6 +22,28 @@
 <tbody>
 
 <tr>
+	<td>49</td>
+	<td><a href="https://leetcode.com/problems/convert-1d-array-into-2d-array/">Convert 1D Array Into 2D Array ❗️</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Convert%201D%20Array%20Into%202D%20Array">Python</a>
+	</td>
+	<td><code>O(n<sup>2</sup>)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>48</td>
+	<td><a href="https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/">Number of Pairs of Strings With Concatenation Equal to Target</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Number%20of%20Pairs%20of%20Strings%20With%20Concatenation%20Equal%20to%20Target">Python</a>
+	</td>
+	<td><code>O(n<sup>2</sup>)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>47</td>
 	<td><a href="https://leetcode.com/problems/sort-array-by-parity-ii/">Sort Array By Parity II</a></td>
 	<td align="center">Easy</td>
