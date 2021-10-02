@@ -28,8 +28,8 @@
 	<td>
 		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Convert%201D%20Array%20Into%202D%20Array">Python</a>
 	</td>
-	<td><code>O(n<sup>2</sup>)</code></td>
-	<td><code>O(1)</code></td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
 </tr>
 
 <tr>
