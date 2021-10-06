@@ -22,6 +22,17 @@
 <tbody>
 
 <tr>
+	<td>50</td>
+	<td><a href="https://leetcode.com/problems/find-all-duplicates-in-an-array/">Find All Duplicates in an Array</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Find%20All%20Duplicates%20in%20an%20Array">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>49</td>
 	<td><a href="https://leetcode.com/problems/convert-1d-array-into-2d-array/">Convert 1D Array Into 2D Array ❗️</a></td>
 	<td align="center">Easy</td>
