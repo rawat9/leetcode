@@ -22,6 +22,28 @@
 <tbody>
 
 <tr>
+	<td>52</td>
+	<td><a href="https://leetcode.com/problems/validate-binary-search-tree/">Validate Binary Search Tree</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Validate%20Binary%20Search%20Tree">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>51</td>
+	<td><a href="https://leetcode.com/problems/binary-tree-inorder-traversal/">Binary Tree Inorder Traversal</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Binary%20Tree%20Inorder%20Traversal">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>50</td>
 	<td><a href="https://leetcode.com/problems/find-all-duplicates-in-an-array/">Find All Duplicates in an Array</a></td>
 	<td align="center">Medium</td>
