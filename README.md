@@ -22,6 +22,28 @@
 <tbody>
 
 <tr>
+	<td>56</td>
+	<td><a href="https://leetcode.com/problems/minimum-size-subarray-sum/">Minimum Size Subarray Sum</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Minimum%20Size%20Subarray%20Sum">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>55</td>
+	<td><a href="https://leetcode.com/problems/guess-number-higher-or-lower/">Guess Number Higher or Lower</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Guess%20Number%20Higher%20or%20Lower">Python</a>
+	</td>
+	<td><code>O(logn)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>54</td>
 	<td><a href="https://leetcode.com/problems/validate-binary-search-tree/">Validate Binary Search Tree</a></td>
 	<td align="center">Medium</td>
