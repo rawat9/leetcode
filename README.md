@@ -22,6 +22,39 @@
 <tbody>
 
 <tr>
+	<td>58</td>
+	<td><a href="https://leetcode.com/problems/kth-largest-element-in-a-stream/">Kth Largest Element in a Stream</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Kth%20Largest%20Element%20in%20a%20Stream">Python</a>
+	</td>
+	<td><code>O(nlogn+mlogk)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>58</td>
+	<td><a href="https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/">Remove Colored Pieces if Both Neighbors are the Same Color</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Remove%20Colored%20Pieces%20if%20Both%20Neighbors%20are%20the%20Same%20Color">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>57</td>
+	<td><a href="https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/">Minimum Number of Moves to Seat Everyone</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Minimum%20Number%20of%20Moves%20to%20Seat%20Everyone">Python</a>
+	</td>
+	<td><code>O(nlogn)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>56</td>
 	<td><a href="https://leetcode.com/problems/minimum-size-subarray-sum/">Minimum Size Subarray Sum</a></td>
 	<td align="center">Medium</td>
