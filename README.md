@@ -22,7 +22,7 @@
 <tbody>
 
 <tr>
-	<td>58</td>
+	<td>59</td>
 	<td><a href="https://leetcode.com/problems/kth-largest-element-in-a-stream/">Kth Largest Element in a Stream</a></td>
 	<td align="center">Easy</td>
 	<td>
