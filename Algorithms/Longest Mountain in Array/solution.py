@@ -28,8 +28,6 @@ class Solution:
 			
 		return res
 
-sol = Solution()
-print(sol.longestMountain([1, 2, 3, 2, 1, 0, 2, 3, 1]))
 
 # Time Complexity - O(N)
 # Space Complexity - O(1)
