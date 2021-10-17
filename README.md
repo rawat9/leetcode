@@ -22,6 +22,17 @@
 <tbody>
 
 <tr>
+	<td>60</td>
+	<td><a href="https://leetcode.com/problems/longest-mountain-in-array/">Longest Mountain in Array</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Longest%20Mountain%20in%20Array">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>59</td>
 	<td><a href="https://leetcode.com/problems/kth-largest-element-in-a-stream/">Kth Largest Element in a Stream</a></td>
 	<td align="center">Easy</td>
