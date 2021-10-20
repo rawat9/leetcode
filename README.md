@@ -22,6 +22,17 @@
 <tbody>
 
 <tr>
+	<td>61</td>
+	<td><a href="https://leetcode.com/problems/reverse-words-in-a-string/">Reverse Words in a String</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Reverse%20Words%20in%20a%20String">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>60</td>
 	<td><a href="https://leetcode.com/problems/longest-mountain-in-array/">Longest Mountain in Array</a></td>
 	<td align="center">Medium</td>
