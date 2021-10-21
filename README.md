@@ -22,6 +22,18 @@
 <tbody>
 
 <tr>
+	<td>62</td>
+	<td><a href="https://leetcode.com/problems/insert-delete-getrandom-o1/">Insert Delete GetRandom O(1)
+</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Insert%20Delete%20GetRandom%20O(1)">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>61</td>
 	<td><a href="https://leetcode.com/problems/reverse-words-in-a-string/">Reverse Words in a String</a></td>
 	<td align="center">Medium</td>
