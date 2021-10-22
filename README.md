@@ -22,6 +22,17 @@
 <tbody>
 
 <tr>
+	<td>63</td>
+	<td><a href="https://leetcode.com/problems/sort-characters-by-frequency/">Sort Characters By Frequency</a><td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Sort%20Characters%20By%20Frequency">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>62</td>
 	<td><a href="https://leetcode.com/problems/insert-delete-getrandom-o1/">Insert Delete GetRandom O(1)
 </a></td>
