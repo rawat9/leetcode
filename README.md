@@ -22,6 +22,17 @@
 <tbody>
 
 <tr>
+	<td>64</td>
+	<td><a href="https://leetcode.com/problems/count-complete-tree-nodes/">Count Complete Tree Nodes</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Count%20Complete%20Tree%20Nodes">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>63</td>
 	<td><a href="https://leetcode.com/problems/sort-characters-by-frequency/">Sort Characters By Frequency</a></td>
 	<td align="center">Medium</td>
