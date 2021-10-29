@@ -22,6 +22,28 @@
 <tbody>
 
 <tr>
+	<td>66</td>
+	<td><a href="https://leetcode.com/problems/sort-colors/">Sort Colors</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Sort%20Colors">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>65</td>
+	<td><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">Two Sum II - Input Array Is Sorted</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Two%20Sum%20II%20-%20Input%20array%20is%20sorted">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>64</td>
 	<td><a href="https://leetcode.com/problems/count-complete-tree-nodes/">Count Complete Tree Nodes</a></td>
 	<td align="center">Medium</td>
