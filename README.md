@@ -22,6 +22,17 @@
 <tbody>
 
 <tr>
+	<td>67</td>
+	<td><a href="https://leetcode.com/problems/the-kth-factor-of-n/">The kth Factor of n</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/The%20kth%20Factor%20of%20n">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>66</td>
 	<td><a href="https://leetcode.com/problems/sort-colors/">Sort Colors</a></td>
 	<td align="center">Medium</td>
