@@ -22,6 +22,17 @@
 <tbody>
 
 <tr>
+	<td>68</td>
+	<td><a href="https://leetcode.com/problems/3sum/">3Sum</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/3Sum">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>67</td>
 	<td><a href="https://leetcode.com/problems/the-kth-factor-of-n/">The kth Factor of n</a></td>
 	<td align="center">Medium</td>
