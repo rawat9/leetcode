@@ -22,6 +22,18 @@
 <tbody>
 
 <tr>
+	<td>70</td>
+	<td><a href="https://leetcode.com/problems/maximum-number-of-balloons/">Maximum Number of Balloons
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Maximum%20Number%20of%20Balloons/solution.py">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>69</td>
 	<td><a href="https://leetcode.com/problems/add-strings/">Add Strings
 </a></td>
