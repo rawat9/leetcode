@@ -22,6 +22,18 @@
 <tbody>
 
 <tr>
+	<td>71</td>
+	<td><a href="https://leetcode.com/problems/sum-of-left-leaves/">Sum of Left Leaves
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Sum%20of%20Left%20Leaves"></a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>70</td>
 	<td><a href="https://leetcode.com/problems/maximum-number-of-balloons/">Maximum Number of Balloons
 </a></td>
