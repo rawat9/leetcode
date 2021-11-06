@@ -27,7 +27,7 @@
 </a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Sum%20of%20Left%20Leaves"></a>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Sum%20of%20Left%20Leaves">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(n)</code></td>
