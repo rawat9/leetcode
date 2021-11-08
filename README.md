@@ -39,7 +39,7 @@
 </a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Maximum%20Number%20of%20Balloons/solution.py">Python</a>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Maximum%20Number%20of%20Balloons/solution.py?ts=4">Python</a>
 	</td>
 	<td><code>O(1)</code></td>
 	<td><code>O(1)</code></td>
