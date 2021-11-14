@@ -25,7 +25,7 @@
 	<td>76</td>
 	<td><a href="https://leetcode.com/problems/iterator-for-combination/">Iterator for Combination
 </a></td>
-	<td align="Medium">Easy</td>
+	<td align="center">Medium</td>
 	<td>
 		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Iterator%20for%20Combination/solution.py?ts=4">Python</a>
 	</td>
