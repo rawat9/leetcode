@@ -1,3 +1,12 @@
 class Solution:
-    def singleNumber(self, nums: list[int]) -> list[int]:
-        return [num for num in nums if nums.count(num) == 1]
+    def myPow(self, x: float, n: int) -> float:
+        if n == 0:
+            return 1
+        if n < 0:
+            return self.myPow(1/x, -n)
+        else:
+            if n % 2 == 0:
+                return self.myPow(x*x, n//2)
+            else:
+                return x * self.myPow(x*x, n//2)
+            
