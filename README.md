@@ -22,12 +22,72 @@
 <tbody>
 
 <tr>
+	<td>76</td>
+	<td><a href="https://leetcode.com/problems/iterator-for-combination/">Iterator for Combination
+</a></td>
+	<td align="Medium">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Iterator%20for%20Combination/solution.py?ts=4">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>75</td>
+	<td><a href="https://leetcode.com/problems/remove-linked-list-elements/">Remove Linked List Elements
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Remove%20Linked%20List%20Elements/solution.py?ts=4">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>74</td>
+	<td><a href="https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/">Minimum Value to Get Positive Step by Step Sum
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Minimum%20Value%20to%20Get%20Positive%20Step%20by%20Step%20Sum/solution.py?ts=4">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>73</td>
+	<td><a href="https://leetcode.com/problems/powx-n/">Pow(x, n)
+</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Pow(x%2C%20n)/solution.py?ts=4">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>72</td>
+	<td><a href="https://leetcode.com/problems/single-number-iii/">Single Number III
+</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Single%20Number%20III/solution.py?ts=4">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>71</td>
 	<td><a href="https://leetcode.com/problems/sum-of-left-leaves/">Sum of Left Leaves
 </a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Sum%20of%20Left%20Leaves">Python</a>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/Sum%20of%20Left%20Leaves/solution.py?ts=4">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(n)</code></td>
@@ -62,7 +122,7 @@
 	<td><a href="https://leetcode.com/problems/3sum/">3Sum</a></td>
 	<td align="center">Medium</td>
 	<td>
-		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/3Sum">Python</a>
+		<a href="https://github.com/rawat9/leetcode/tree/main/Algorithms/3Sum/solution.py?ts=4">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(n)</code></td>
