@@ -22,6 +22,18 @@
 <tbody>
 
 <tr>
+	<td>77</td>
+	<td><a href="https://leetcode.com/problems/unique-paths/">Unique Paths
+</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Unique%20Paths/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>76</td>
 	<td><a href="https://leetcode.com/problems/iterator-for-combination/">Iterator for Combination
 </a></td>
