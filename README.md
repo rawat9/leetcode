@@ -22,6 +22,18 @@
 <tbody>
 
 <tr>
+	<td>78</td>
+	<td><a href="https://leetcode.com/problems/hamming-distance/">Hamming Distance
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Hamming%20Distance/solution.py">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>77</td>
 	<td><a href="https://leetcode.com/problems/unique-paths/">Unique Paths
 </a></td>
