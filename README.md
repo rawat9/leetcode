@@ -22,6 +22,42 @@
 <tbody>
 
 <tr>
+	<td>81</td>
+	<td><a href="https://leetcode.com/problems/final-value-of-variable-after-performing-operations/">Final Value of Variable After Performing Operations
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Final%20Value%20of%20Variable%20After%20Performing%20Operations/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>80</td>
+	<td><a href="https://leetcode.com/problems/defanging-an-ip-address/">Defanging an IP Address
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Defanging%20an%20IP%20Address/solution.py">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>79</td>
+	<td><a href="https://leetcode.com/problems/single-element-in-a-sorted-array/">Single Element in a Sorted Array ❗️
+</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>78</td>
 	<td><a href="https://leetcode.com/problems/hamming-distance/">Hamming Distance
 </a></td>
