@@ -1,5 +1,5 @@
 <div align="center">
-	<img width="400" src="https://techeliteindia.in/img/companies/leetcode.png">
+	<img width="450" src="https://techeliteindia.in/img/companies/leetcode.png">
 </div>
 <div align="center">
 	<img src="https://img.shields.io/badge/language-Python-blue"></img>
@@ -20,6 +20,42 @@
 	</thead>
 
 <tbody>
+
+<tr>
+	<td>84</td>
+	<td><a href="https://leetcode.com/problems/merge-strings-alternately/">Merge Strings Alternately
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Merge%20Strings%20Alternately/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>83</td>
+	<td><a href="https://leetcode.com/problems/truncate-sentence/">Truncate Sentence
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Truncate%20Sentence/solution.py">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>82</td>
+	<td><a href="https://leetcode.com/problems/shuffle-string/">Shuffle String
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Shuffle%20String/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
 
 <tr>
 	<td>81</td>
