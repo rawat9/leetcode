@@ -22,6 +22,18 @@
 <tbody>
 
 <tr>
+	<td>85</td>
+	<td><a href="https://leetcode.com/problems/jewels-and-stones/">Jewels and Stones
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Jewels%20and%20Stones/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>84</td>
 	<td><a href="https://leetcode.com/problems/merge-strings-alternately/">Merge Strings Alternately
 </a></td>
