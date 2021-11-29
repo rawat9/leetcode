@@ -22,6 +22,31 @@
 <tbody>
 
 <tr>
+	<td>87</td>
+	<td><a href="https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/">Sort Integers by The Number of 1 Bits
+
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Sort%20Integers%20by%20The%20Number%20of%201%20Bits/solution.py">Python</a>
+	</td>
+	<td><code>O(nlogn)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>86</td>
+	<td><a href="https://leetcode.com/problems/product-of-array-except-self/">Product of Array Except Self
+</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Product%20of%20Array%20Except%20Self/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>85</td>
 	<td><a href="https://leetcode.com/problems/jewels-and-stones/">Jewels and Stones
 </a></td>
