@@ -22,6 +22,42 @@
 <tbody>
 
 <tr>
+	<td>90</td>
+	<td><a href="https://leetcode.com/problems/check-if-the-sentence-is-pangram/">Check if the Sentence Is Pangram
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Check%20if%20the%20Sentence%20Is%20Pangram/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>89</td>
+	<td><a href="https://leetcode.com/problems/split-a-string-in-balanced-strings/">Split a String in Balanced Strings
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Split%20a%20String%20in%20Balanced%20Strings/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>88</td>
+	<td><a href="https://leetcode.com/problems/goal-parser-interpretation/">Goal Parser Interpretation
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Goal%20Parser%20Interpretation/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>87</td>
 	<td><a href="https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/">Sort Integers by The Number of 1 Bits
 
