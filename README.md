@@ -22,14 +22,26 @@
 <tbody>
 
 <tr>
-	<td>103</td>
+	<td>104</td>
 	<td><a href="https://leetcode.com/problems/k-closest-points-to-origin/">K Closest Points to Origin
+</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/K%20Closest%20Points%20to%20Origin/solution.py">Python</a>
+	</td>
+	<td><code>O(nlogn)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>103</td>
+	<td><a href="https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/">Find All Numbers Disappeared in an Array
 </a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/K%20Closest%20Points%20to%20Origin/solution.py">Medium</a>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Find%20All%20Numbers%20Disappeared%20in%20an%20Array/solution.py">Python</a>
 	</td>
-	<td><code>O(nlogn)</code></td>
+	<td><code>O(1)</code></td>
 	<td><code>O(n)</code></td>
 </tr>
 
