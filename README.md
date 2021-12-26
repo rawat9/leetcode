@@ -22,6 +22,162 @@
 <tbody>
 
 <tr>
+	<td>103</td>
+	<td><a href="https://leetcode.com/problems/k-closest-points-to-origin/">K Closest Points to Origin
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/K%20Closest%20Points%20to%20Origin/solution.py">Medium</a>
+	</td>
+	<td><code>O(nlogn)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>102</td>
+	<td><a href="https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/">Maximum Number of Words Found in Sentences
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Maximum%20Number%20of%20Words%20Found%20in%20Sentences/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>101</td>
+	<td><a href="https://leetcode.com/problems/power-of-four/">Power of Four
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Power%20of%20Four/solution.java">Java</a>
+	</td>
+	<td><code>O(logn)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>100</td>
+	<td><a href="https://leetcode.com/problems/power-of-two/">Power of Two
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Power%20to%20Two/solution.java">Java</a>
+	</td>
+	<td><code>O(logn)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>99</td>
+	<td><a href="https://leetcode.com/problems/adding-spaces-to-a-string/">Adding Spaces to a String
+</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Adding%20Spaces%20to%20a%20String/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>98</td>
+	<td><a href="https://leetcode.com/problems/find-first-palindromic-string-in-the-array/">Find First Palindromic String in the Array
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Find%20First%20Palindromic%20String%20in%20the%20Array/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>97</td>
+	<td><a href="https://leetcode.com/problems/consecutive-characters/">Consecutive Characters
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Consecutive%20Characters/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>96</td>
+	<td><a href="https://leetcode.com/problems/range-sum-of-bst/">Range Sum of BST
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Range%20Sum%20of%20BST/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>95</td>
+	<td><a href="https://leetcode.com/problems/count-the-number-of-consistent-strings/">Count the Number of Consistent Strings
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Count%20the%20Number%20of%20Consistent%20Strings/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>94</td>
+	<td><a href="https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/">Convert Binary Number in a Linked List to Integer
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>93</td>
+	<td><a href="https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/">Subtract the Product and Sum of Digits of an Integer
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Subtract%20the%20Product%20and%20Sum%20of%20Digits%20of%20an%20Integer/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>92</td>
+	<td><a href="https://leetcode.com/problems/sorting-the-sentence/">Sorting the Sentence
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Sorting%20the%20Sentence/solution.py">Python</a>
+	</td>
+	<td><code>O(nlogn)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>91</td>
+	<td><a href="https://leetcode.com/problems/count-items-matching-a-rule/">Count Items Matching a Rule
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Count%20Items%20Matching%20a%20Rule/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>90</td>
 	<td><a href="https://leetcode.com/problems/check-if-the-sentence-is-pangram/">Check if the Sentence Is Pangram
 </a></td>
@@ -39,7 +195,7 @@
 </a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Split%20a%20String%20in%20Balanced%20Strings/solution.py">Python</a>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Split%20a%20String%20in%20Balanced%20Strings/solution.java">Java</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(1)</code></td>
