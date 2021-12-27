@@ -22,6 +22,42 @@
 <tbody>
 
 <tr>
+	<td>107</td>
+	<td><a href="https://leetcode.com/problems/climbing-stairs/">Climbing Stairs
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Climbing%20Stairs/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>106</td>
+	<td><a href="https://leetcode.com/problems/complement-of-base-10-integer/">Complement of Base 10 Integer
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Complement%20of%20Base%2010%20Integer/solution.java">Java</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>105</td>
+	<td><a href="https://leetcode.com/problems/number-complement/">Number Complement
+</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Number%20Complement/solution.java">Java</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>104</td>
 	<td><a href="https://leetcode.com/problems/k-closest-points-to-origin/">K Closest Points to Origin
 </a></td>
