@@ -2,7 +2,8 @@
 	<img width="450" src="https://techeliteindia.in/img/companies/leetcode.png">
 </div>
 <div align="center">
-	<img src="https://img.shields.io/badge/language-Python-blue"></img>
+	<img src="https://img.shields.io/badge/language-Python%20%7C%20Java-blue?color=yellow&style=for-the-badge"></img>
+	<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/rawat9/leetcode?color=black&style=for-the-badge">
 </div>
 <br>
 <hr>
