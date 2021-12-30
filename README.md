@@ -23,6 +23,18 @@
 <tbody>
 
 <tr>
+	<td>109</td>
+	<td><a href="https://leetcode.com/problems/rotate-image/">Rotate Image
+</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Rotate%20Image/solution.java">Java</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>108</td>
 	<td><a href="https://leetcode.com/problems/middle-of-the-linked-list/">Middle of the Linked List
 </a></td>
