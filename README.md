@@ -2,7 +2,7 @@
 	<img width="450" src="https://techeliteindia.in/img/companies/leetcode.png">
 </div>
 <div align="center">
-	<img src="https://img.shields.io/badge/language-Python%20%7C%20Java-blue?color=yellow&style=for-the-badge"></img>
+	<img src="https://img.shields.io/badge/language-Python%20%7C%20Java%20%7C%20SQL-blue?color=yellow&style=for-the-badge"></img>
 	<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/rawat9/leetcode?color=black&style=for-the-badge">
 </div>
 <br>
@@ -73,8 +73,8 @@
 	<td>
 		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Work%20Break/solution.py">Python</a>
 	</td>
-	<td><code>O(n*m<sup>2</sup>)</code></td>
-	<td><code>O(m<em>2</em>)</code></td>
+	<td><code>O(nm<sup>2</sup>)</code></td>
+	<td><code>O(m<sup>2</sup>)</code></td>
 </tr>
 
 <tr>
