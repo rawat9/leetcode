@@ -23,6 +23,61 @@
 <tbody>
 
 <tr>
+	<td>114</td>
+	<td><a href="https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/">Pairs of Songs With Total Durations Divisible by 60</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>113</td>
+	<td><a href="https://leetcode.com/problems/a-number-after-a-double-reversal/">A Number After a Double Reversal</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/A%20Number%20After%20a%20Double%20Reversal/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>112</td>
+	<td><a href="https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/">Check if All A's Appears Before All B's</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Check%20if%20All%20A's%20Appears%20Before%20All%20B's/solution.py">Python</a>
+	</td>
+	<td><code>O(1)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>111</td>
+	<td><a href="https://leetcode.com/problems/word-break-ii/">Word Break II</a></td>
+	<td align="center">Hard</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Word%20Break%20II/solution.py">Python</a>
+	</td>
+	<td><code>O(n<sup>m</sup>)</code></td>
+	<td><code>O(m)</code></td>
+</tr>
+
+<tr>
+	<td>110</td>
+	<td><a href="https://leetcode.com/problems/word-break/">Word Break</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Work%20Break/solution.py">Python</a>
+	</td>
+	<td><code>O(n*m<sup>2</sup>)</code></td>
+	<td><code>O(m<em>2</em>)</code></td>
+</tr>
+
+<tr>
 	<td>109</td>
 	<td><a href="https://leetcode.com/problems/rotate-image/">Rotate Image
 </a></td>
