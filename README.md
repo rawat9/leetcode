@@ -23,6 +23,17 @@
 <tbody>
 
 <tr>
+	<td>115</td>
+	<td><a href="https://leetcode.com/problems/find-the-town-judge/">Find the Town Judge</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Find%20the%20Town%20Judge/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>114</td>
 	<td><a href="https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/">Pairs of Songs With Total Durations Divisible by 60</a></td>
 	<td align="center">Medium</td>
