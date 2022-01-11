@@ -23,6 +23,105 @@
 <tbody>
 
 <tr>
+	<td>126</td>
+	<td><a href="https://leetcode.com/problems/burst-balloons/">Burst Balloons</a></td>
+	<td align="center">Hard</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Burst%20Balloons/solution.py">Python</a>
+	</td>
+	<td><code>O(n<sup>2</sup>)</code></td>
+	<td><code>O(n<sup>2</sup>)</code></td>
+</tr>
+
+<tr>
+	<td>125</td>
+	<td><a href="https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/">Sum of Root To Leaf Binary Numbers</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(h)</code></td>
+</tr>
+
+<tr>
+	<td>124</td>
+	<td><a href="https://leetcode.com/problems/add-binary/">Add Binary</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Add%20Binary/solution.py">Python</a>
+	</td>
+	<td><code>O(log(n))</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>123</td>
+	<td><a href="https://leetcode.com/problems/robot-bounded-in-circle/">Robot Bounded In Circle</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Robot%20Bounded%20In%20Circle/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>122</td>
+	<td><a href="https://leetcode.com/problems/cherry-pickup-ii/">Cherry Pickup II</a></td>
+	<td align="center">Hard</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Cherry%20Pickup%20II/solution.py">Python</a>
+	</td>
+	<td><code>O(mn<sup>2</sup>)</code></td>
+	<td><code>O(mn<sup>2</sup>)</code></td>
+</tr>
+
+<tr>
+	<td>121</td>
+	<td><a href="https://leetcode.com/problems/detect-capital/">Detect Capital</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Detect%20Capital/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>120</td>
+	<td><a href="https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/">Maximum Twin Sum of a Linked List</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Maximum%20Twin%20Sum%20of%20a%20Linked%20List/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>119</td>
+	<td><a href="https://leetcode.com/problems/capitalize-the-title/">Capitalize the Title</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Capitalize%20the%20Title/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>118</td>
+	<td><a href="https://leetcode.com/problems/linked-list-random-node/">Linked List Random Node</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Linked%20List%20Random%20Node/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>117</td>
 	<td><a href="https://leetcode.com/problems/car-pooling/">Car Pooling</a></td>
 	<td align="center">Medium</td>
