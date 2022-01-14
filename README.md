@@ -23,6 +23,17 @@
 <tbody>
 
 <tr>
+	<td>127</td>
+	<td><a href="https://leetcode.com/problems/string-to-integer-atoi/">String to Integer (atoi)</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/String%20to%20Integer%20(atoi)/solution.py">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>126</td>
 	<td><a href="https://leetcode.com/problems/burst-balloons/">Burst Balloons</a></td>
 	<td align="center">Hard</td>
