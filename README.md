@@ -23,6 +23,61 @@
 <tbody>
 
 <tr>
+	<td>132</td>
+	<td><a href="https://leetcode.com/problems/linked-list-cycle-ii/">Linked List Cycle II</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>131</td>
+	<td><a href="https://leetcode.com/problems/can-place-flowers/">Can Place Flowers</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>130</td>
+	<td><a href="https://leetcode.com/problems/word-pattern/">Word Pattern</a></td>
+	<td align="center">Easy</td>
+	<td>
+		<a href="">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>129</td>
+	<td><a href="https://leetcode.com/problems/maximize-distance-to-closest-person/">Maximize Distance to Closest Person</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
+	<td>128</td>
+	<td><a href="https://leetcode.com/problems/jump-game-iv/">Jump Game IV</a></td>
+	<td align="center">Hard</td>
+	<td>
+		<a href="">Python</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(n)</code></td>
+</tr>
+
+<tr>
 	<td>127</td>
 	<td><a href="https://leetcode.com/problems/string-to-integer-atoi/">String to Integer (atoi)</a></td>
 	<td align="center">Medium</td>
