@@ -27,7 +27,7 @@
 	<td><a href="https://leetcode.com/problems/linked-list-cycle-ii/">Linked List Cycle II</a></td>
 	<td align="center">Medium</td>
 	<td>
-		<a href="">Python</a>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Linked%20List%20Cycle%20II/solution.py">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(1)</code></td>
@@ -38,7 +38,7 @@
 	<td><a href="https://leetcode.com/problems/can-place-flowers/">Can Place Flowers</a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="">Python</a>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Can%20Place%20Flowers/solution.py">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(1)</code></td>
@@ -49,7 +49,7 @@
 	<td><a href="https://leetcode.com/problems/word-pattern/">Word Pattern</a></td>
 	<td align="center">Easy</td>
 	<td>
-		<a href="">Python</a>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Word%20Pattern/solution.py">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(n)</code></td>
@@ -60,7 +60,7 @@
 	<td><a href="https://leetcode.com/problems/maximize-distance-to-closest-person/">Maximize Distance to Closest Person</a></td>
 	<td align="center">Medium</td>
 	<td>
-		<a href="">Python</a>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Maximize%20Distance%20to%20Closest%20Person/solution.py">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(n)</code></td>
@@ -68,10 +68,10 @@
 
 <tr>
 	<td>128</td>
-	<td><a href="https://leetcode.com/problems/jump-game-iv/">Jump Game IV</a></td>
+	<td><a href="https://leetcode.com/problems/jump-game-iv/">Jump Game IV ⨯</a></td>
 	<td align="center">Hard</td>
 	<td>
-		<a href="">Python</a>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Jump%20Game%20IV/solution.py">Python</a>
 	</td>
 	<td><code>O(n)</code></td>
 	<td><code>O(n)</code></td>
