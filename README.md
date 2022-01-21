@@ -23,6 +23,28 @@
 <tbody>
 
 <tr>
+	<td>134</td>
+	<td><a href="https://leetcode.com/problems/gas-station/">Gas Station</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Gas%20Station/solution.java">Java</a>
+	</td>
+	<td><code>O(n)</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
+	<td>133</td>
+	<td><a href="https://leetcode.com/problems/koko-eating-bananas/">Koko Eating Bananas ❗️</a></td>
+	<td align="center">Medium</td>
+	<td>
+		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Koko%20Eating%20Bananas/solution.py">Python</a>
+	</td>
+	<td><code>O(nlog(m))</code></td>
+	<td><code>O(1)</code></td>
+</tr>
+
+<tr>
 	<td>132</td>
 	<td><a href="https://leetcode.com/problems/linked-list-cycle-ii/">Linked List Cycle II</a></td>
 	<td align="center">Medium</td>
