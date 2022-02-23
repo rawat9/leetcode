@@ -35,7 +35,7 @@
 
 <tr>
 	<td>133</td>
-	<td><a href="https://leetcode.com/problems/koko-eating-bananas/">Koko Eating Bananas ❗️</a></td>
+	<td><a href="https://leetcode.com/problems/koko-eating-bananas/">Koko Eating Bananas</a></td>
 	<td align="center">Medium</td>
 	<td>
 		<a href="https://github.com/rawat9/leetcode/blob/main/Algorithms/Koko%20Eating%20Bananas/solution.py">Python</a>
