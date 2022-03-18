@@ -6,7 +6,6 @@
 	<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/rawat9/leetcode?color=black&style=for-the-badge">
 </div>
 <br>
-<hr>
 
 <table>
 	<thead>
