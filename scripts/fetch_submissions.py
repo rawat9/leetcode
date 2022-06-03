@@ -2,13 +2,11 @@ import requests
 from datetime import datetime
 import json
 
-PROBLEMS_URL = "https://leetcode.com/api/problems/algorithms/"
 SUBMISSIONS_URL = "https://leetcode.com/api/submissions/?offset={}&limit={}"
 
 with open("secrets.json", "r") as secrets:
     f = json.load(secrets)
     FILE_PATH = f["FILE_PATH"]
-    FILE_PATH2 = f["FILE_PATH2"]
     LEETCODE_SESSION = f["LEETCODE_SESSION"]
     csrf_token = f["csrftoken"]
 
@@ -48,7 +46,6 @@ def get_submissions():
     with open(FILE_PATH, "r") as f:
         data = json.load(f)
 
-    # while ("detail" not in response_json and "has_next" in response_json and response_json["has_next"]):
     response_json = requests.get(
         SUBMISSIONS_URL.format(current, 20), cookies=cookies
     ).json()
@@ -69,16 +66,11 @@ def get_submissions():
             if sub["status_display"] == "Accepted" and submission not in data:
                 data.append(submission)
 
-        # current += 20
-        # time.sleep(1)
-
-    # if "detail" in response_json:
-    #     print("CURRENT:", current)
-    #     print(response_json["detail"])
-
-    data.sort(key=lambda x: x['timestamp'], reverse=True)
+    # Sort by latest date
+    data.sort(key=lambda x: x["timestamp"], reverse=True)
 
     with open(FILE_PATH, "w") as file:
         json.dump(data, file, indent=4)
+
 
 get_submissions()
