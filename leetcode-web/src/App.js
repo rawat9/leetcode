@@ -2,22 +2,42 @@ import "./App.css";
 import MUIDataTable from "mui-datatables";
 import Grid from "@mui/material/Grid";
 import submissions from "./data/submissions.json";
-import { FaPython } from "react-icons/fa";
-import { FaJava } from "react-icons/fa";
-import { SiMicrosoftsqlserver } from "react-icons/si";
-import { SiMysql } from "react-icons/si";
+import {
+  SiMysql,
+  SiMicrosoftsqlserver,
+  SiJavascript,
+  SiPython,
+  SiJava,
+  SiOracle,
+  SiGo,
+  SiLeetcode,
+} from "react-icons/si";
 import Link from "@mui/material/Link";
+import IconButton from "@mui/material/IconButton";
+import RefreshIcon from "@mui/icons-material/Refresh";
+import Tooltip from "@mui/material/Tooltip";
+import CodeDialog from "./CodeDialog";
+import SyntaxHighlighter from "react-syntax-highlighter";
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import Container from "@mui/system/Container";
 
 const URL = "https://leetcode.com/problems/";
 
+const HeaderElements = () => (
+  <Tooltip title="Refresh">
+    <IconButton color="default" aria-label="refresh" component="span">
+      <RefreshIcon />
+    </IconButton>
+  </Tooltip>
+);
+
 const options = {
   filter: true,
-  filterType: "multiselect",
-  responsive: "standard",
-  fixedHeader: true,
-  fixedSelectColumn: true,
-  tableBodyHeight: "500px",
+  filterType: "dropdown",
+  responsive: "stacked",
+  tableBodyHeight: "580px",
   selectableRows: false,
+  customToolbar: () => <HeaderElements />,
 };
 
 const columns = [
@@ -53,11 +73,17 @@ const columns = [
       filter: true,
       customBodyRender: (value) => {
         if (value === "python3") {
-          return <FaPython size={25} />;
+          return <SiPython size={25} />;
         } else if (value === "java") {
-          return <FaJava size={25} />;
+          return <SiJava size={25} />;
+        } else if (value === "javascript") {
+          return <SiJavascript size={25} />;
+        } else if (value === "golang") {
+          return <SiGo size={25} />;
         } else if (value === "mysql") {
           return <SiMysql size={25} />;
+        } else if (value === "oracle") {
+          return <SiOracle size={25} />;
         } else if (value === "mssql") {
           return <SiMicrosoftsqlserver size={25} />;
         }
@@ -76,21 +102,44 @@ const columns = [
       filter: false,
     },
   },
+  {
+    name: "code",
+    options: {
+      filter: false,
+      customBodyRender: (value, tableMeta, update) => {
+        let rowIndex = Number(tableMeta.rowIndex);
+        return (
+          <CodeDialog
+            content={
+              <SyntaxHighlighter
+                language={submissions[rowIndex].lang}
+                style={docco}
+              >
+                {value}
+              </SyntaxHighlighter>
+            }
+          >
+            ;
+          </CodeDialog>
+        );
+      },
+    },
+  },
 ];
 
 function App() {
   return (
     <div className="App">
-      <Grid container spacing={4}>
-        <Grid item xs={14}>
+      <Container maxWidth="xl">
+        <Grid item xs={12}>
           <MUIDataTable
-            title="LeetCode"
+            title={<SiLeetcode size={20} />}
             data={submissions}
             columns={columns}
             options={options}
           />
         </Grid>
-      </Grid>
+      </Container>
     </div>
   );
 }
