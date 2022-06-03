@@ -1,5 +1,6 @@
 .DS_Store
 secrets.json
-Utils/add.py
-Utils/generate.py
-Utils/leetcode_api.py
+scripts/add.py
+scripts/generate.py
+scripts/leetcode_api.py
+scripts/copy.py
