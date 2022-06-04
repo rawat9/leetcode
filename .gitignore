@@ -3,4 +3,5 @@ secrets.json
 scripts/add.py
 scripts/generate.py
 scripts/leetcode_api.py
-scripts/copy.py
+scripts/another.py
+.env
