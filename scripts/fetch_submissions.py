@@ -1,18 +1,24 @@
+import dotenv
+from pathlib import Path
 import requests
 from datetime import datetime
 import json
+import os
 
 SUBMISSIONS_URL = "https://leetcode.com/api/submissions/?offset={}&limit={}"
 
-with open("secrets.json", "r") as secrets:
-    f = json.load(secrets)
-    FILE_PATH = f["FILE_PATH"]
-    LEETCODE_SESSION = f["LEETCODE_SESSION"]
-    csrf_token = f["csrftoken"]
+BASE_DIR = Path(__file__).resolve().parent.parent
+FILE_PATH = os.path.join(BASE_DIR, "leetcode-web/src/data/submissions.json")
+
+dotenv_file = os.path.join(BASE_DIR, ".env")
+if os.path.isfile(dotenv_file):
+    dotenv.load_dotenv(dotenv_file)
+
+LEETCODE_SESSION = os.environ.get("LEETCODE_SESSION")
+CSRF_TOKEN = os.environ.get("CSRF_TOKEN")
 
 cookies = {
-    "csrftoken": csrf_token,
-    "NEW_PROBLEMLIST_PAGE": "1",
+    "csrftoken": CSRF_TOKEN,
     "LEETCODE_SESSION": LEETCODE_SESSION,
 }
 
@@ -73,4 +79,5 @@ def get_submissions():
         json.dump(data, file, indent=4)
 
 
-get_submissions()
+if __name__ == "__main__":
+    get_submissions()
