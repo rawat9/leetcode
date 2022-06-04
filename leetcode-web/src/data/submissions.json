@@ -1,6 +1,66 @@
 [
     {
+        "timestamp": "2022-06-04 13:36:06",
+        "title": "Find the Middle Index in Array",
+        "title_slug": "find-the-middle-index-in-array",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "1 ms",
+        "memory": "42.6 MB",
+        "code": "class Solution {\n    public int findMiddleIndex(int[] nums) {\n        int sum = 0, leftSum = 0;\n        \n        for (int num : nums) {\n            sum += num;\n        }\n        \n        for (int i = 0; i < nums.length; i++) {\n            if (leftSum == sum - leftSum - nums[i]) return i;\n            leftSum += nums[i];\n        }\n        return -1;\n    }\n}"
+    },
+    {
+        "timestamp": "2022-06-03 20:59:52",
+        "title": "Find Pivot Index",
+        "title_slug": "find-pivot-index",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "2 ms",
+        "memory": "52 MB",
+        "code": "class Solution {\n    public int pivotIndex(int[] nums) {\n        int n = nums.length;\n        int leftSum = 0, sum = 0;\n        \n        for (int num : nums) sum += num;\n        \n        for (int i = 0; i < n; i++) {\n            int rightSum = sum - leftSum - nums[i];\n            if (leftSum == rightSum) return i;\n            leftSum += nums[i];\n        }\n        \n        return -1;\n    }\n}"
+    },
+    {
+        "timestamp": "2022-06-03 20:59:15",
+        "title": "Find Pivot Index",
+        "title_slug": "find-pivot-index",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "2 ms",
+        "memory": "52 MB",
+        "code": "class Solution {\n    public int pivotIndex(int[] nums) {\n        int n = nums.length;\n        int leftSum = 0;\n        \n        int sum = 0;\n        for (int num : nums) {\n            sum += num;\n        }\n        \n        for (int i = 0; i < n; i++) {\n            int rightSum = sum - leftSum - nums[i];\n            if (leftSum == rightSum) return i;\n            leftSum += nums[i];\n        }\n        \n        return -1;\n    }\n}"
+    },
+    {
+        "timestamp": "2022-06-03 09:20:09",
+        "title": "Range Sum Query 2D - Immutable",
+        "title_slug": "range-sum-query-2d-immutable",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "2343 ms",
+        "memory": "133.4 MB",
+        "code": "class NumMatrix {\n    \n    private int[][] grid;\n\n    public NumMatrix(int[][] matrix) {\n        grid = matrix;\n    }\n    \n    public int sumRegion(int row1, int col1, int row2, int col2) {  \n        int sum = 0;\n        for (int i = row1; i <= row2; i++) {\n            for (int j = col1; j <= col2; j++) {\n                sum += grid[i][j];\n            }\n        }\n        return sum;\n    }\n}\n\n/**\n * Your NumMatrix object will be instantiated and called as such:\n * NumMatrix obj = new NumMatrix(matrix);\n * int param_1 = obj.sumRegion(row1,col1,row2,col2);\n */"
+    },
+    {
+        "timestamp": "2022-06-02 20:59:41",
+        "title": "Transpose Matrix",
+        "title_slug": "transpose-matrix",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "0 ms",
+        "memory": "42.7 MB",
+        "code": "class Solution {\n    public int[][] transpose(int[][] matrix) {\n        int R = matrix.length, C = matrix[0].length;\n        int[][] res = new int[C][R];\n        \n        for (int i = 0; i < R; i++) {\n            for (int j = 0; j < C; j++) {\n                res[j][i] = matrix[i][j];\n            }\n        }\n        return res;\n    }\n}"
+    },
+    {
         "timestamp": "2022-06-01 11:21:21",
+        "title": "Running Sum of 1d Array",
+        "title_slug": "running-sum-of-1d-array",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "0 ms",
+        "memory": "42.8 MB",
+        "code": "class Solution {\n    public int[] runningSum(int[] nums) {\n        for (int i = 1; i < nums.length; i++) {\n            nums[i] += nums[i-1];\n        }\n        return nums;\n    }\n}"
+    },
+    {
+        "timestamp": "2022-06-01 10:21:21",
         "title": "Running Sum of 1d Array",
         "title_slug": "running-sum-of-1d-array",
         "status": "Accepted",
@@ -20,6 +80,16 @@
         "code": "class Solution:\n    def hasAllCodes(self, s: str, k: int) -> bool:\n        got = {s[i - k : i] for i in range(k, len(s) + 1)}\n        return len(got) == 1 << k"
     },
     {
+        "timestamp": "2022-05-31 21:19:43",
+        "title": "Check If a String Contains All Binary Codes of Size K",
+        "title_slug": "check-if-a-string-contains-all-binary-codes-of-size-k",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "459 ms",
+        "memory": "27.2 MB",
+        "code": "class Solution:\n    def hasAllCodes(self, s: str, k: int) -> bool:\n        got = {s[i - k : i] for i in range(k, len(s) + 1)}\n        return len(got) == 1 << k"
+    },
+    {
         "timestamp": "2022-05-31 12:34:10",
         "title": "K Closest Points to Origin",
         "title_slug": "k-closest-points-to-origin",
@@ -30,7 +100,27 @@
         "code": "class Solution:\n    def distance(self, point):\n        return point[0] ** 2 + point[1] ** 2\n\n    def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:\n        points.sort(key=self.distance) \n        return points[:k]\n"
     },
     {
+        "timestamp": "2022-05-31 11:34:10",
+        "title": "K Closest Points to Origin",
+        "title_slug": "k-closest-points-to-origin",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "1115 ms",
+        "memory": "20.5 MB",
+        "code": "class Solution:\n    def distance(self, point):\n        return point[0] ** 2 + point[1] ** 2\n\n    def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:\n        points.sort(key=self.distance) \n        return points[:k]\n"
+    },
+    {
         "timestamp": "2022-05-30 21:49:58",
+        "title": "Divide Two Integers",
+        "title_slug": "divide-two-integers",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "1 ms",
+        "memory": "41.7 MB",
+        "code": "class Solution {\n    public int divide(int A, int B) {\n        if (A == 1 << 31 && B == -1) return (1 << 31) - 1;\n        int a = Math.abs(A), b = Math.abs(B), res = 0, x = 0;\n        while (a - b >= 0) {\n            for (x = 0; a - (b << x << 1) >= 0; x++);\n            res += 1 << x;\n            a -= b << x;\n        }\n        return (A > 0) == (B > 0) ? res : -res;\n    }\n}"
+    },
+    {
+        "timestamp": "2022-05-30 20:49:58",
         "title": "Divide Two Integers",
         "title_slug": "divide-two-integers",
         "status": "Accepted",
@@ -60,6 +150,16 @@
         "code": "class Solution {\n    /*\n          0        90        180       270       360\n        00 01 --> 10 00 --> 11 10 --> 01 11 --> 00 01\n        10 11     11 01     01 00     00 10     10 11\n        \n        # Step1. Reverse\n        10 11\n        00 01\n        \n        # Step2. Transpose\n        10 00\n        11 01\n        \n    */\n    public boolean findRotation(int[][] mat, int[][] target) {\n        for (int i = 0; i < 4; i++) {\n            if (compare(mat, target)) {\n                return true;\n            } else {\n                // Reverse the matrix\n                reverse(mat);\n\n                // Transpose\n                transpose(mat);\n            }\n        }\n        return false;\n    }\n    \n    public static boolean compare(int[][] mat, int[][] target) {\n        int n = mat.length;\n        \n        for (int i = 0; i < n; i++) {\n            for (int j = 0; j < n; j++) {\n                if (mat[i][j] != target[i][j])\n                    return false;  \n            }\n        }\n        return true;\n    }\n    \n    public static void transpose(int[][] mat) {\n        int n = mat.length;\n        \n        for (int i = 0; i < n; i++) {\n            for (int j = i+1; j < n; j++) {\n                int temp = mat[i][j];\n                mat[i][j] = mat[j][i];\n                mat[j][i] = temp;\n            }\n        }\n    }\n    \n    public static void reverse(int[][] mat) {\n        int n = mat.length;\n        for (int j = 0; j < n; j++) {\n            for (int i = 0; i < n / 2; i++) {\n                int temp = mat[j][i];\n                mat[j][i] = mat[j][n-i-1];\n                mat[j][n-i-1] = temp;\n            }\n        }\n    }\n    \n    public static void traverse(int[][] mat) {\n        int n = mat.length;\n        for (int i = 0; i < n; i++) {\n            for (int j = 0; j < n; j++) {\n                System.out.print(mat[i][j] + \" \");\n            }\n            System.out.println();\n        }\n    }\n}"
     },
     {
+        "timestamp": "2022-05-30 19:11:48",
+        "title": "Determine Whether Matrix Can Be Obtained By Rotation",
+        "title_slug": "determine-whether-matrix-can-be-obtained-by-rotation",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "1 ms",
+        "memory": "42.9 MB",
+        "code": "class Solution {\n    /*\n          0        90        180       270       360\n        00 01 --> 10 00 --> 11 10 --> 01 11 --> 00 01\n        10 11     11 01     01 00     00 10     10 11\n        \n        # Step1. Reverse\n        10 11\n        00 01\n        \n        # Step2. Transpose\n        10 00\n        11 01\n        \n    */\n    public boolean findRotation(int[][] mat, int[][] target) {\n        for (int i = 0; i < 4; i++) {\n            if (compare(mat, target))\n                return true;\n            // Reverse the matrix\n            reverse(mat);\n\n            // Transpose\n            transpose(mat);\n        }\n        return false;\n    }\n    \n    public static boolean compare(int[][] mat, int[][] target) {\n        int n = mat.length;\n        \n        for (int i = 0; i < n; i++) {\n            for (int j = 0; j < n; j++) {\n                if (mat[i][j] != target[i][j])\n                    return false;  \n            }\n        }\n        return true;\n    }\n    \n    public static void transpose(int[][] mat) {\n        int n = mat.length;\n        \n        for (int i = 0; i < n; i++) {\n            for (int j = i+1; j < n; j++) {\n                int temp = mat[i][j];\n                mat[i][j] = mat[j][i];\n                mat[j][i] = temp;\n            }\n        }\n    }\n    \n    public static void reverse(int[][] mat) {\n        int n = mat.length;\n        for (int j = 0; j < n; j++) {\n            for (int i = 0; i < n / 2; i++) {\n                int temp = mat[j][i];\n                mat[j][i] = mat[j][n-i-1];\n                mat[j][n-i-1] = temp;\n            }\n        }\n    }\n    \n    public static void traverse(int[][] mat) {\n        int n = mat.length;\n        for (int i = 0; i < n; i++) {\n            for (int j = 0; j < n; j++) {\n                System.out.print(mat[i][j] + \" \");\n            }\n            System.out.println();\n        }\n    }\n}"
+    },
+    {
         "timestamp": "2022-05-30 19:09:04",
         "title": "Rotate Image",
         "title_slug": "rotate-image",
@@ -71,6 +171,36 @@
     },
     {
         "timestamp": "2022-05-30 19:08:40",
+        "title": "Rotate Image",
+        "title_slug": "rotate-image",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "0 ms",
+        "memory": "43 MB",
+        "code": "class Solution {\n    public void rotate(int[][] matrix) {\n        transpose(matrix);\n        reverse(matrix);\n    }\n    \n    public void transpose(int[][] matrix) {\n        for (int i = 0; i < matrix.length; i++) {\n            for (int j = i+1; j < matrix.length; j++) {\n                int temp = matrix[i][j];\n                matrix[i][j] = matrix[j][i];\n                matrix[j][i] = temp;\n            }\n        }\n    }\n    \n    public void reverse(int[][] matrix) {\n        int n = matrix.length;\n        \n        for (int i = 0; i < matrix.length; i++) {\n            for (int j = 0; j < n / 2; j++) {\n                int temp = matrix[i][j];\n                matrix[i][j] = matrix[i][n- j -1];\n                matrix[i][n-j-1] = temp;\n            }\n        }\n    }\n}"
+    },
+    {
+        "timestamp": "2022-05-30 19:07:58",
+        "title": "Determine Whether Matrix Can Be Obtained By Rotation",
+        "title_slug": "determine-whether-matrix-can-be-obtained-by-rotation",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "2 ms",
+        "memory": "42.3 MB",
+        "code": "class Solution {\n    /*\n          0        90        180       270       360\n        00 01 --> 10 00 --> 11 10 --> 01 11 --> 00 01\n        10 11     11 01     01 00     00 10     10 11\n        \n        # Step1. Reverse\n        10 11\n        00 01\n        \n        # Step2. Transpose\n        10 00\n        11 01\n        \n    */\n    public boolean findRotation(int[][] mat, int[][] target) {\n        for (int i = 0; i < 4; i++) {\n            if (compare(mat, target)) {\n                return true;\n            } else {\n                // Reverse the matrix\n                reverse(mat);\n\n                // Transpose\n                transpose(mat);\n            }\n        }\n        return false;\n    }\n    \n    public static boolean compare(int[][] mat, int[][] target) {\n        int n = mat.length;\n        \n        for (int i = 0; i < n; i++) {\n            for (int j = 0; j < n; j++) {\n                if (mat[i][j] != target[i][j])\n                    return false;  \n            }\n        }\n        return true;\n    }\n    \n    public static void transpose(int[][] mat) {\n        int n = mat.length;\n        \n        for (int i = 0; i < n; i++) {\n            for (int j = i+1; j < n; j++) {\n                int temp = mat[i][j];\n                mat[i][j] = mat[j][i];\n                mat[j][i] = temp;\n            }\n        }\n    }\n    \n    public static void reverse(int[][] mat) {\n        int n = mat.length;\n        for (int j = 0; j < n; j++) {\n            for (int i = 0; i < n / 2; i++) {\n                int temp = mat[j][i];\n                mat[j][i] = mat[j][n-i-1];\n                mat[j][n-i-1] = temp;\n            }\n        }\n    }\n    \n    public static void traverse(int[][] mat) {\n        int n = mat.length;\n        for (int i = 0; i < n; i++) {\n            for (int j = 0; j < n; j++) {\n                System.out.print(mat[i][j] + \" \");\n            }\n            System.out.println();\n        }\n    }\n}"
+    },
+    {
+        "timestamp": "2022-05-30 18:09:04",
+        "title": "Rotate Image",
+        "title_slug": "rotate-image",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "1 ms",
+        "memory": "42.3 MB",
+        "code": "class Solution {\n    public void rotate(int[][] matrix) {\n        transpose(matrix);\n        reverse(matrix);\n    }\n    \n    public void transpose(int[][] matrix) {\n        for (int i = 0; i < matrix.length; i++) {\n            for (int j = i+1; j < matrix.length; j++) {\n                int temp = matrix[i][j];\n                matrix[i][j] = matrix[j][i];\n                matrix[j][i] = temp;\n            }\n        }\n    }\n    \n    public void reverse(int[][] matrix) {\n        int n = matrix.length;\n        \n        for (int i = 0; i < matrix.length; i++) {\n            for (int j = 0; j < n / 2; j++) {\n                int temp = matrix[i][j];\n                matrix[i][j] = matrix[i][n- j -1];\n                matrix[i][n-j-1] = temp;\n            }\n        }\n    }\n}"
+    },
+    {
+        "timestamp": "2022-05-30 18:08:40",
         "title": "Rotate Image",
         "title_slug": "rotate-image",
         "status": "Accepted",
@@ -100,7 +230,37 @@
         "code": "class Solution:\n    def maxProduct(self, words: List[str]) -> int:\n        return max([len(s1) * len(s2) for s1, s2 in combinations(words, 2)  if not (set(s1) & set(s2))], default=0)"
     },
     {
+        "timestamp": "2022-05-30 09:05:09",
+        "title": "Length of Last Word",
+        "title_slug": "length-of-last-word",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "41 ms",
+        "memory": "13.8 MB",
+        "code": "class Solution:\n    def lengthOfLastWord(self, s: str) -> int:\n        return len(s.split()[-1])"
+    },
+    {
+        "timestamp": "2022-05-30 09:02:19",
+        "title": "Maximum Product of Word Lengths",
+        "title_slug": "maximum-product-of-word-lengths",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "5659 ms",
+        "memory": "19 MB",
+        "code": "class Solution:\n    def maxProduct(self, words: List[str]) -> int:\n        return max([len(s1) * len(s2) for s1, s2 in combinations(words, 2)  if not (set(s1) & set(s2))], default=0)"
+    },
+    {
         "timestamp": "2022-05-29 12:02:56",
+        "title": "Sales Analysis III",
+        "title_slug": "sales-analysis-iii",
+        "status": "Accepted",
+        "lang": "mysql",
+        "runtime": "1111 ms",
+        "memory": "0B",
+        "code": "SELECT\n\ts.product_id,\n\tproduct_name\nFROM\n\tsales s\n\tINNER JOIN product p ON p.product_id = s.product_id\nGROUP BY\n\t1, 2\nHAVING\n\tMIN(sale_date) >= '2019-01-01'\n\tAND MAX(sale_date) <= '2019-03-31'"
+    },
+    {
+        "timestamp": "2022-05-29 11:02:56",
         "title": "Sales Analysis III",
         "title_slug": "sales-analysis-iii",
         "status": "Accepted",
