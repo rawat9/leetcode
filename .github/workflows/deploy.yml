@@ -29,5 +29,5 @@ jobs:
       run: |
         git config --global user.email ${{ secrets.EMAIL_ADDRESS }}
         git config --global user.name "Anurag Rawat"
-        git remote set-url origin https://{{ secrets.PERSONAL_TOKEN }}@github.com/rawat9/leetcode.git
+        git remote set-url origin https://${{ secrets.PERSONAL_TOKEN }}@github.com/rawat9/leetcode.git
         npm run deploy
