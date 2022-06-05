@@ -1,5 +1,35 @@
 [
     {
+        "timestamp": "2022-06-04 21:55:53",
+        "title": "N-Queens",
+        "title_slug": "n-queens",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "52 ms",
+        "memory": "14.4 MB",
+        "code": "class Solution:\n    def solveNQueens(self, n: int) -> List[List[str]]:\n        state= [[\".\"] * n for _ in range(n)] # start with empty board\n        \n        res=[]\n        \n        visited_cols=set()        \n        visited_diagonals=set()\n\n        visited_antidiagonals=set()\n        \n        def backtrack(r):\n            if r==n:                \n                res.append([\"\".join(row) for row in state])\n                return\n            \n            for c in range(n):\n                diff=r-c\n                _sum=r+c\n                \n                if not (c in visited_cols or diff in visited_diagonals or _sum in visited_antidiagonals):                    \n                    visited_cols.add(c)\n                    visited_diagonals.add(diff)\n                    visited_antidiagonals.add(_sum)\n                    state[r][c]='Q' \n                    backtrack(r+1) \n\n                    # reset the path\n                    visited_cols.remove(c)\n                    visited_diagonals.remove(diff)\n                    visited_antidiagonals.remove(_sum)\n                    state[r][c]='.'                                \n\n        backtrack(0)\n        return res"
+    },
+    {
+        "timestamp": "2022-06-04 21:55:51",
+        "title": "Find All Anagrams in a String",
+        "title_slug": "find-all-anagrams-in-a-string",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "216 ms",
+        "memory": "15.3 MB",
+        "code": "class Solution:\n    def findAnagrams(self, s: str, p: str) -> List[int]:\n        hmap = defaultdict(int)\n        ans = []\n        n, m = len(s), len(p)\n        if m > n: return []\n        \n        for char in p:\n            hmap[char] += 1\n        \n        for i in range(m-1):\n            if s[i] in hmap:\n                hmap[s[i]] -= 1\n                \n        # sliding window with stride 1\n        for i in range(-1, n-m+1):\n            if i > -1 and s[i] in hmap:\n                hmap[s[i]] += 1\n            if i+m < n and s[i+m] in hmap: \n                hmap[s[i+m]] -= 1\n                \n            # check whether we encountered an anagram\n            if all(v == 0 for v in hmap.values()): \n                ans.append(i+1)\n                \n        return ans"
+    },
+    {
+        "timestamp": "2022-06-04 18:13:32",
+        "title": "Apply Discount to Prices",
+        "title_slug": "apply-discount-to-prices",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "251 ms",
+        "memory": "16 MB",
+        "code": "class Solution:\n    def discountPrices(self, sentence: str, discount: int) -> str:\n        words = sentence.split()\n        calc_price = lambda cost, discount: cost * (discount / 100)\n\n        for i, w in enumerate(words):\n            if w.startswith(\"$\"):\n                current = w[1:]\n                if current and \"$\" not in current and current.isdigit():\n                    words[i] = f'${int(current) - calc_price(int(current), discount):.2f}'\n\n        return \" \".join(words)"
+    },
+    {
         "timestamp": "2022-06-04 13:36:06",
         "title": "Find the Middle Index in Array",
         "title_slug": "find-the-middle-index-in-array",
