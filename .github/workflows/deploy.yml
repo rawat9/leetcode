@@ -7,12 +7,19 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
     defaults:
       run:
         working-directory: ./leetcode-web
 
     steps:
     - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
 
     - name: Install 🔧
       run: yarn install
@@ -22,9 +29,6 @@ jobs:
       env:
         NODE_ENV: production
 
-    - name: deploy to github-pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: gh-pages
-        publish_dir: ./build
+    - name: Deploy to GH Pages
+      run: |
+        npm run deploy
