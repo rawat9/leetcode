@@ -11,12 +11,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-      with:
-        persist-credentials: false
-        path: './leetcode-web'
 
     - name: Install 🔧
-      run: yarn install
+      run: |
+        cd leetcode-web
+        yarn install
 
     - name: Build 🏗️
       run: yarn build
