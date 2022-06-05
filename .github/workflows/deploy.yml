@@ -2,7 +2,8 @@ name: Deploy
 
 on:
   push:
-    branches: [ "main" ]
+    branches: 
+      - main
 
 jobs:
   build:
@@ -24,11 +25,9 @@ jobs:
     - name: Install 🔧
       run: yarn install
 
-    - name: Build 🏗️
-      run: yarn build
-      env:
-        NODE_ENV: production
-
-    - name: Deploy to GH Pages
+    - name: Deploy to gh-pages
       run: |
+        git config --global user.email ${{ secrets.EMAIL_ADDRESS }}
+        git config --global user.name "Anurag Rawat"
+        git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}>@github.com/rawat9/leetcode.git
         npm run deploy
