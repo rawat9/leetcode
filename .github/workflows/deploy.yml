@@ -18,7 +18,9 @@ jobs:
         yarn install
 
     - name: Build 🏗️
-      run: yarn build
+      run: |
+        cd leetcode-web
+        yarn build
       env:
         NODE_ENV: production
 
