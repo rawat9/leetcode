@@ -13,12 +13,10 @@ jobs:
     - uses: actions/checkout@v3
       with:
         persist-credentials: false
+        path: './leetcode-web'
 
     - name: Install 🔧
       run: yarn install
-
-    - name: Lint 🧐
-      run: yarn lint:check
 
     - name: Build 🏗️
       run: yarn build
