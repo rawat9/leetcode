@@ -20,13 +20,13 @@ jobs:
       with:
         node-version: 16
         cache: 'npm'
-        cache-dependency-path: ./leetcode-web/package-lock.json
         
     - name: npm install, build
       run: npm install && npm run build
+      working-directory: ./leetcode-web
           
     - name: deploy to github-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        publish_dir: ./leetcode-web/build  
+        publish_dir: ./leetcode-web/build
