@@ -1,5 +1,25 @@
 [
     {
+        "timestamp": "2022-06-05 22:28:27",
+        "title": "N-Queens II",
+        "title_slug": "n-queens-ii",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "76 ms",
+        "memory": "14.2 MB",
+        "code": "class Solution:\n    def totalNQueens(self, n: int) -> int:\n        state= [[\".\"] * n for _ in range(n)] # start with empty board\n        \n        res=[]\n        \n        visited_cols=set()        \n        visited_diagonals=set()\n\n        visited_antidiagonals=set()\n        \n        def backtrack(r):\n            if r==n:                \n                res.append([\"\".join(row) for row in state])\n                return\n            \n            for c in range(n):\n                diff=r-c\n                _sum=r+c\n                \n                if not (c in visited_cols or diff in visited_diagonals or _sum in visited_antidiagonals):                    \n                    visited_cols.add(c)\n                    visited_diagonals.add(diff)\n                    visited_antidiagonals.add(_sum)\n                    state[r][c]='Q' \n                    backtrack(r+1) \n\n                    # reset the path\n                    visited_cols.remove(c)\n                    visited_diagonals.remove(diff)\n                    visited_antidiagonals.remove(_sum)\n                    state[r][c]='.'                                \n\n        backtrack(0)\n        return len(res)"
+    },
+    {
+        "timestamp": "2022-06-05 20:28:54",
+        "title": "Range Sum Query 2D - Immutable",
+        "title_slug": "range-sum-query-2d-immutable",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "2009 ms",
+        "memory": "135.6 MB",
+        "code": "class NumMatrix {\n    \n    private int[][] grid;\n\n    public NumMatrix(int[][] matrix) {\n        grid = matrix;\n    }\n    \n    public int sumRegion(int row1, int col1, int row2, int col2) {  \n        int sum = 0;\n        for (int i = row1; i <= row2; i++) {\n            for (int j = col1; j <= col2; j++) {\n                sum += grid[i][j];\n            }\n        }\n        return sum;\n    }\n}\n\n/**\n * Your NumMatrix object will be instantiated and called as such:\n * NumMatrix obj = new NumMatrix(matrix);\n * int param_1 = obj.sumRegion(row1,col1,row2,col2);\n */"
+    },
+    {
         "timestamp": "2022-06-04 21:55:53",
         "title": "N-Queens",
         "title_slug": "n-queens",
