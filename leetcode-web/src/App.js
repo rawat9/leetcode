@@ -15,7 +15,7 @@ import {
 import Link from "@mui/material/Link";
 import CodeDialog from "./CodeDialog";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import atomOneDark from "react-syntax-highlighter/dist/esm/styles/hljs/atom-one-dark";
 import Container from "@mui/system/Container";
 
 const URL = "https://leetcode.com/problems/";
@@ -100,8 +100,12 @@ const columns = [
           <CodeDialog
             content={
               <SyntaxHighlighter
-                language={submissions[rowIndex].lang}
-                style={docco}
+                language={
+                  submissions[rowIndex].lang === "python3"
+                    ? "python"
+                    : submissions[rowIndex].lang
+                }
+                style={atomOneDark}
               >
                 {value}
               </SyntaxHighlighter>
