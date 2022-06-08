@@ -13,9 +13,6 @@ import {
   SiLeetcode,
 } from "react-icons/si";
 import Link from "@mui/material/Link";
-import IconButton from "@mui/material/IconButton";
-import RefreshIcon from "@mui/icons-material/Refresh";
-import Tooltip from "@mui/material/Tooltip";
 import CodeDialog from "./CodeDialog";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -23,21 +20,12 @@ import Container from "@mui/system/Container";
 
 const URL = "https://leetcode.com/problems/";
 
-const HeaderElements = () => (
-  <Tooltip title="Refresh">
-    <IconButton color="default" aria-label="refresh" component="span">
-      <RefreshIcon />
-    </IconButton>
-  </Tooltip>
-);
-
 const options = {
   filter: true,
   filterType: "dropdown",
   responsive: "stacked",
   tableBodyHeight: "580px",
   selectableRows: false,
-  customToolbar: () => <HeaderElements />,
 };
 
 const columns = [
