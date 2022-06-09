@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-06-08 20:40:11",
+        "title": "Remove Palindromic Subsequences",
+        "title_slug": "remove-palindromic-subsequences",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "43 ms",
+        "memory": "13.9 MB",
+        "code": "class Solution:\n    def removePalindromeSub(self, s: str) -> int:\n        return 1 if s == s[::-1] else 2"
+    },
+    {
         "timestamp": "2022-06-07 07:29:58",
         "title": "Merge Sorted Array",
         "title_slug": "merge-sorted-array",
