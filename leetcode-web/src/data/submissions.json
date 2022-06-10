@@ -1,5 +1,45 @@
 [
     {
+        "timestamp": "2022-06-09 19:10:07",
+        "title": "Lemonade Change",
+        "title_slug": "lemonade-change",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "1458 ms",
+        "memory": "18.2 MB",
+        "code": "class Solution:\n    def lemonadeChange(self, bills: List[int]) -> bool:\n        five, ten = 0, 0\n        \n        for bill in bills:\n            if bill == 5:\n                five += 1\n            elif bill == 10:\n                if five == 0:\n                    return False\n                five -= 1\n                ten += 1\n            else:\n                if five > 0 and ten > 0:\n                    five -= 1\n                    ten -= 1\n                elif five >= 3:\n                    five -= 3\n                else:\n                    return False\n                \n        return True"
+    },
+    {
+        "timestamp": "2022-06-09 15:33:12",
+        "title": "Seat Reservation Manager",
+        "title_slug": "seat-reservation-manager",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "556 ms",
+        "memory": "41.5 MB",
+        "code": "class SeatManager:\n\n    def __init__(self, n: int):\n        self.seats = list(range(1, n + 1))\n\n    def reserve(self) -> int:\n        return heappop(self.seats)\n\n    def unreserve(self, seatNumber: int) -> None:\n        heappush(self.seats, seatNumber)\n\n\n# Your SeatManager object will be instantiated and called as such:\n# obj = SeatManager(n)\n# param_1 = obj.reserve()\n# obj.unreserve(seatNumber)"
+    },
+    {
+        "timestamp": "2022-06-09 09:11:29",
+        "title": "Two Sum II - Input Array Is Sorted",
+        "title_slug": "two-sum-ii-input-array-is-sorted",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "1 ms",
+        "memory": "45.3 MB",
+        "code": "class Solution {\n    public int[] twoSum(int[] numbers, int target) {\n        int i = 0, j = numbers.length - 1;\n        \n        while (numbers[i] + numbers[j] != target) {\n            if (numbers[i] + numbers[j] > target) {\n                j -= 1;\n            }\n            else {\n                i += 1;\n            }\n        }\n        return new int[] {i+1, j+1};\n    }\n}"
+    },
+    {
+        "timestamp": "2022-06-09 08:59:29",
+        "title": "Two Sum II - Input Array Is Sorted",
+        "title_slug": "two-sum-ii-input-array-is-sorted",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "191 ms",
+        "memory": "14.9 MB",
+        "code": "class Solution:\n    def twoSum(self, numbers: List[int], target: int) -> List[int]:\n        i, j = 0, len(numbers)-1\n\n        while i < len(numbers) and j < len(numbers):\n            if numbers[i] + numbers[j] > target:\n                j -= 1\n            elif numbers[i] + numbers[j] < target:\n                i += 1\n            else:\n                return [i+1,j+1]\n"
+    },
+    {
         "timestamp": "2022-06-08 20:40:11",
         "title": "Remove Palindromic Subsequences",
         "title_slug": "remove-palindromic-subsequences",
