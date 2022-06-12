@@ -1,5 +1,45 @@
 [
     {
+        "timestamp": "2022-06-12 22:15:21",
+        "title": "Maximum Erasure Value",
+        "title_slug": "maximum-erasure-value",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "143 ms",
+        "memory": "119 MB",
+        "code": "class Solution {\n    public int maximumUniqueSubarray(int[] nums) {\n        int maxScore = 0;\n        int currScore = 0;\n        Set<Integer> set = new HashSet<>();\n\n        for (int l=0, r=0; r < nums.length; r++) {\n            while (!set.add(nums[r])) {\n                currScore -= nums[l];\n                set.remove(nums[l++]);\n            }\n            currScore += nums[r];\n            maxScore = Math.max(maxScore, currScore);\n        }\n        return maxScore;\n    }\n}"
+    },
+    {
+        "timestamp": "2022-06-11 22:43:51",
+        "title": "Minimum Operations to Reduce X to Zero",
+        "title_slug": "minimum-operations-to-reduce-x-to-zero",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "2153 ms",
+        "memory": "27.9 MB",
+        "code": "class Solution:\n    def minOperations(self, nums: List[int], x: int) -> int:\n        target = sum(nums) - x\n        curr_sum, max_len = 0, 0\n        start_idx = 0\n        found = False\n        \n        for end_idx in range(len(nums)):\n            curr_sum += nums[end_idx]\n            \n            while start_idx <= end_idx and curr_sum > target:\n                curr_sum -= nums[start_idx]\n                start_idx += 1\n            if curr_sum == target:\n                found = True\n                max_len = max(max_len, end_idx - start_idx + 1)\n\n        return len(nums) - max_len if found else -1"
+    },
+    {
+        "timestamp": "2022-06-11 15:35:45",
+        "title": "Strong Password Checker II",
+        "title_slug": "strong-password-checker-ii",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "67 ms",
+        "memory": "13.9 MB",
+        "code": "class Solution:\n    def strongPasswordCheckerII(self, s: str) -> bool:\n        has_lower = any(x.islower() for x in s)\n        has_upper = any(x.isupper() for x in s)\n        has_special = any(x in \"!@#$%^&*()-+\" for x in s)\n        has_digit = any(x.isdigit() for x in s)\n        \n        for i in range(len(s)-1):\n            if s[i] == s[i+1]:\n                return False\n\n        if not has_lower:\n            return False\n\n        if not has_upper:\n            return False\n\n        if not has_digit:\n            return False\n\n        if not has_special:\n            return False\n\n        if len(s) < 8:\n            return False\n            \n        return True\n\n"
+    },
+    {
+        "timestamp": "2022-06-10 22:57:41",
+        "title": "Longest Substring Without Repeating Characters",
+        "title_slug": "longest-substring-without-repeating-characters",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "112 ms",
+        "memory": "14 MB",
+        "code": "class Solution:\n    def lengthOfLongestSubstring(self, s: str) -> int:\n        counter = defaultdict(int)  \n        l = 0\n        max_length = 0\n        for r, c in enumerate(s):\n            counter[c]+=1            \n            if counter[c] > 1:                \n                while l<r and counter[c] > 1:\n                    counter[s[l]]-=1\n                    l+=1\n                    \n            max_length=max(max_length, r-l+1)\n        return max_length"
+    },
+    {
         "timestamp": "2022-06-09 19:10:07",
         "title": "Lemonade Change",
         "title_slug": "lemonade-change",
