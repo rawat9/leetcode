@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-06-17 21:44:53",
+        "title": "Binary Tree Cameras",
+        "title_slug": "binary-tree-cameras",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "88 ms",
+        "memory": "14.1 MB",
+        "code": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def minCameraCover(self, root: Optional[TreeNode]) -> int:\n        def solve(node):\n            if not node: \n                return 0, 0, float('inf')\n            \n            L = solve(node.left)\n            R = solve(node.right)\n\n            dp0 = L[1] + R[1]\n            dp1 = min(L[2] + min(R[1:]), R[2] + min(L[1:]))\n            dp2 = 1 + min(L) + min(R)\n\n            return dp0, dp1, dp2\n\n        return min(solve(root)[1:])"
+    },
+    {
         "timestamp": "2022-06-16 21:51:14",
         "title": "Longest Palindromic Substring",
         "title_slug": "longest-palindromic-substring",
