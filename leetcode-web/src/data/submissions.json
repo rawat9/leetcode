@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-06-18 20:57:43",
+        "title": "Prefix and Suffix Search",
+        "title_slug": "prefix-and-suffix-search",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "1922 ms",
+        "memory": "60.7 MB",
+        "code": "Trie = lambda: collections.defaultdict(Trie)\nWEIGHT = False\n\nclass WordFilter(object):\n    def __init__(self, words):\n        self.trie = Trie()\n\n        for weight, word in enumerate(words):\n            word += '#'\n            for i in range(len(word)):\n                cur = self.trie\n                cur[WEIGHT] = weight\n                for j in range(i, 2 * len(word) - 1):\n                    cur = cur[word[j % len(word)]]\n                    cur[WEIGHT] = weight\n\n    def f(self, prefix, suffix):\n        cur = self.trie\n        \n        for letter in suffix + '#' + prefix:\n            if letter not in cur:\n                return -1\n            cur = cur[letter]\n        return cur[WEIGHT]"
+    },
+    {
         "timestamp": "2022-06-17 21:44:53",
         "title": "Binary Tree Cameras",
         "title_slug": "binary-tree-cameras",
