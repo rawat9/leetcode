@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-06-19 19:38:58",
+        "title": "Search Suggestions System",
+        "title_slug": "search-suggestions-system",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "1099 ms",
+        "memory": "22.7 MB",
+        "code": "class TrieNode:\n    def __init__(self, char) -> None:\n        self.char = char\n        self.children = {}\n        self.isEndOfWord = False\n        \n\nclass Solution:\n    def __init__(self) -> None:\n        self.root = TrieNode(\"\")\n\n    def buildTrie(self, word):\n        root = self.root\n\n        for c in word:\n            if c not in root.children:\n                newNode = TrieNode(c)\n                root.children[c] = newNode\n                root = newNode\n            else:\n                root = root.children[c]\n\n        root.isEndOfWord = True\n\n    def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:\n        output = []\n        products.sort()\n\n        for product in products:\n            self.buildTrie(product)\n\n        prefix = \"\"\n        for c in searchWord:\n            prefix += c\n            output.append(self.search(prefix)[:3])\n\n        return output\n\n    def dfs(self, node, prefix):\n        if node.isEndOfWord:\n            self.result.append((prefix + node.char))\n        \n        for child in node.children.values():\n            self.dfs(child, prefix + node.char)\n        \n\n    def search(self, word):\n        root = self.root\n\n        for char in word:\n            if char in root.children:\n                root = root.children[char]\n            else:\n                return []\n         \n        self.result = []\n        self.dfs(root, word[:-1])\n \n        return self.result\n"
+    },
+    {
         "timestamp": "2022-06-18 20:57:43",
         "title": "Prefix and Suffix Search",
         "title_slug": "prefix-and-suffix-search",
