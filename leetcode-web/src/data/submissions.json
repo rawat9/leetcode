@@ -1,5 +1,25 @@
 [
     {
+        "timestamp": "2022-06-20 21:27:19",
+        "title": "Short Encoding of Words",
+        "title_slug": "short-encoding-of-words",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "161 ms",
+        "memory": "14.5 MB",
+        "code": "class Solution:\n    def minimumLengthEncoding(self, words):\n        good = set(words)\n        \n        for word in words:\n            for j in range(1, len(word)):\n                good.discard(word[j:])\n\n        return sum(len(word) + 1 for word in good)"
+    },
+    {
+        "timestamp": "2022-06-20 19:05:03",
+        "title": "Search a 2D Matrix II",
+        "title_slug": "search-a-2d-matrix-ii",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "14 ms",
+        "memory": "58.2 MB",
+        "code": "class Solution {\n    public boolean searchMatrix(int[][] matrix, int target) {\n        for (int[] row : matrix) {\n            if (Arrays.binarySearch(row, target) >= 0) {\n                return true;\n            }\n        }\n        \n        return false;\n    }\n}"
+    },
+    {
         "timestamp": "2022-06-19 19:38:58",
         "title": "Search Suggestions System",
         "title_slug": "search-suggestions-system",
