@@ -1,5 +1,35 @@
 [
     {
+        "timestamp": "2022-06-22 21:16:55",
+        "title": "Kth Largest Element in an Array",
+        "title_slug": "kth-largest-element-in-an-array",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "112 ms",
+        "memory": "14.9 MB",
+        "code": "class Solution:\n    def findKthLargest(self, nums: List[int], k: int) -> int:\n        min_heap = []\n\n        for num in nums:\n            heapq.heappush(min_heap, num)\n\n            if len(min_heap) > k:\n                heapq.heappop(min_heap)\n\n        return min_heap[0]"
+    },
+    {
+        "timestamp": "2022-06-22 18:00:30",
+        "title": "Kth Largest Element in an Array",
+        "title_slug": "kth-largest-element-in-an-array",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "63 ms",
+        "memory": "14.8 MB",
+        "code": "class Solution:\n    def findKthLargest(self, nums: List[int], k: int) -> int:\n        return sorted(nums, reverse=True)[k-1]"
+    },
+    {
+        "timestamp": "2022-06-22 17:53:04",
+        "title": "Greatest English Letter in Upper and Lower Case",
+        "title_slug": "greatest-english-letter-in-upper-and-lower-case",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "87 ms",
+        "memory": "13.8 MB",
+        "code": "class Solution:\n    def greatestLetter(self, s: str) -> str:\n        lettersCount = [\"\"] * 26\n\n        for c in s:\n\n            # capital letter of c\n            c_capital = chr(ord(c) - 32)\n\n            if c_capital in s:\n                lettersCount[ord(c) - ord('a')] = c_capital\n\n        return max(lettersCount)"
+    },
+    {
         "timestamp": "2022-06-21 21:35:49",
         "title": "Furthest Building You Can Reach",
         "title_slug": "furthest-building-you-can-reach",
