@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-06-23 21:53:51",
+        "title": "Course Schedule III",
+        "title_slug": "course-schedule-iii",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "36 ms",
+        "memory": "50.3 MB",
+        "code": "class Solution {\n    public int scheduleCourse(int[][] courses) {\n        Arrays.sort(courses, (a, b) -> a[1] - b[1]);\n        PriorityQueue<Integer> queue = new PriorityQueue<> ((a, b) -> b - a);\n        \n        int time = 0;\n        for (int[] c: courses) {\n            if (time + c[0] <= c[1]) {\n                queue.offer(c[0]);\n                time += c[0];\n            } else if (!queue.isEmpty() && queue.peek() > c[0]) {\n                time += c[0] - queue.poll();\n                queue.offer(c[0]);\n            }\n        }\n        \n        return queue.size();       \n    }\n}"
+    },
+    {
         "timestamp": "2022-06-22 21:16:55",
         "title": "Kth Largest Element in an Array",
         "title_slug": "kth-largest-element-in-an-array",
