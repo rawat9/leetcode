@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-06-24 22:02:10",
+        "title": "Construct Target Array With Multiple Sums",
+        "title_slug": "construct-target-array-with-multiple-sums",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "9 ms",
+        "memory": "50.3 MB",
+        "code": "class Solution {\n    public boolean isPossible(int[] target) {\n        if (target.length == 1) \n            return target[0] == 1;\n\n        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());\n        int sum = 0;\n        for (int t: target) {\n            pq.add(t);\n            sum += t;\n        }\n\n        while (pq.peek() != 1) {\n            int curr = pq.poll();\n            if (sum - curr == 1) \n                return true;\n\n            int x = curr % (sum - curr);\n            sum = sum - curr + x;\n\n            if (x == 0 || x == curr) \n                return false;\n            else \n                pq.add(x);\n        }\n        return true;\n    }\n}"
+    },
+    {
         "timestamp": "2022-06-23 21:53:51",
         "title": "Course Schedule III",
         "title_slug": "course-schedule-iii",
