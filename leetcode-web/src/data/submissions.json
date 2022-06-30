@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-06-29 20:48:11",
+        "title": "Queue Reconstruction by Height",
+        "title_slug": "queue-reconstruction-by-height",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "196 ms",
+        "memory": "14.4 MB",
+        "code": "class Solution:\n    def reconstructQueue(self, people: List[List[int]]) -> List[List[int]]:\n        output=[] \n        \n        people.sort(key=lambda x: (-x[0], x[1]))                \n        for a in people:\n            output.insert(a[1], a)\n        \n        return output"
+    },
+    {
         "timestamp": "2022-06-28 22:13:04",
         "title": "Minimum Deletions to Make Character Frequencies Unique",
         "title_slug": "minimum-deletions-to-make-character-frequencies-unique",
