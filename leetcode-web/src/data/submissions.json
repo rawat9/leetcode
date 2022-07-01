@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-06-30 22:26:55",
+        "title": "Minimum Moves to Equal Array Elements II",
+        "title_slug": "minimum-moves-to-equal-array-elements-ii",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "146 ms",
+        "memory": "15.4 MB",
+        "code": "class Solution:\n    def minMoves2(self, nums: List[int]) -> int:\n        count = 0\n        nums.sort()\n        \n        mid = nums[len(nums)//2]\n        \n        for num in nums:\n            count += abs(mid-num)\n        return count"
+    },
+    {
         "timestamp": "2022-06-29 20:48:11",
         "title": "Queue Reconstruction by Height",
         "title_slug": "queue-reconstruction-by-height",
