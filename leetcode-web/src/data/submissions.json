@@ -1,5 +1,25 @@
 [
     {
+        "timestamp": "2022-07-01 23:08:27",
+        "title": "Maximum Units on a Truck",
+        "title_slug": "maximum-units-on-a-truck",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "169 ms",
+        "memory": "14.4 MB",
+        "code": "class Solution:\n    def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:\n        boxTypes.sort(key=lambda box: box[1], reverse=True)\n\n        \n\n        totalUnits = 0\n\n        for numberOfBoxes, unitsPerBox in boxTypes:\n\n\n\n            numBoxes = min(truckSize, numberOfBoxes)\n\n            totalUnits += numBoxes * unitsPerBox\n\n            truckSize -= numBoxes\n\n        return totalUnits"
+    },
+    {
+        "timestamp": "2022-07-01 23:07:39",
+        "title": "Maximum Units on a Truck",
+        "title_slug": "maximum-units-on-a-truck",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "177 ms",
+        "memory": "14.4 MB",
+        "code": "class Solution:\n    def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:\n        boxTypes.sort(key=lambda box: box[1], reverse=True)\n\n        \n\n        totalUnits = 0\n\n        for numberOfBoxes, unitsPerBox in boxTypes:\n\n            # Take as many boxes until we're out of space on the truck\n\n            # or we're out of boxes of this type\n\n            numBoxes = min(truckSize, numberOfBoxes)\n\n            totalUnits += numBoxes * unitsPerBox\n\n            truckSize -= numBoxes\n\n        return totalUnits"
+    },
+    {
         "timestamp": "2022-06-30 22:26:55",
         "title": "Minimum Moves to Equal Array Elements II",
         "title_slug": "minimum-moves-to-equal-array-elements-ii",
