@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-04 23:30:21",
+        "title": "Candy",
+        "title_slug": "candy",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "4 ms",
+        "memory": "53 MB",
+        "code": "class Solution {\n    public int candy(int[] ratings) {\n        int sum = 0;\n        int[] left2right = new int[ratings.length];\n        int[] right2left = new int[ratings.length];\n        Arrays.fill(left2right, 1);\n        Arrays.fill(right2left, 1);\n        \n        for (int i = 1; i < ratings.length; i++) {\n            if (ratings[i] > ratings[i - 1]) {\n                left2right[i] = left2right[i - 1] + 1;\n            }\n        }\n        for (int i = ratings.length - 2; i >= 0; i--) {\n            if (ratings[i] > ratings[i + 1]) {\n                right2left[i] = right2left[i + 1] + 1;\n            }\n        }\n        for (int i = 0; i < ratings.length; i++) {\n            sum += Math.max(left2right[i], right2left[i]);\n        }\n        return sum;\n    }\n}"
+    },
+    {
         "timestamp": "2022-07-03 22:43:08",
         "title": "Wiggle Subsequence",
         "title_slug": "wiggle-subsequence",
