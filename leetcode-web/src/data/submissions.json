@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-07 22:09:07",
+        "title": "Interleaving String",
+        "title_slug": "interleaving-string",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "3 ms",
+        "memory": "43.2 MB",
+        "code": "class Solution {\n    public boolean is_Interleave(String s1, int i, String s2, int j, String s3, int k, int[][] memo) {\n        if (i == s1.length()) {\n            return s2.substring(j).equals(s3.substring(k));\n        }\n        if (j == s2.length()) {\n            return s1.substring(i).equals(s3.substring(k));\n        }\n        if (memo[i][j] >= 0) {\n            return memo[i][j] == 1 ? true : false;\n        }\n        boolean ans = false;\n        if (s3.charAt(k) == s1.charAt(i) && is_Interleave(s1, i + 1, s2, j, s3, k + 1, memo)\n                || s3.charAt(k) == s2.charAt(j) && is_Interleave(s1, i, s2, j + 1, s3, k + 1, memo)) {\n            ans = true;\n        }\n        memo[i][j] = ans ? 1 : 0;\n        return ans;\n    }\n    public boolean isInterleave(String s1, String s2, String s3) {\n        if (s1.length() + s2.length() != s3.length()) {\n            return false;\n        }\n        int memo[][] = new int[s1.length()][s2.length()];\n        for (int i = 0; i < s1.length(); i++) {\n            for (int j = 0; j < s2.length(); j++) {\n                memo[i][j] = -1;\n            }\n        }\n        return is_Interleave(s1, 0, s2, 0, s3, 0, memo);\n    }\n}"
+    },
+    {
         "timestamp": "2022-07-06 21:47:49",
         "title": "Fibonacci Number",
         "title_slug": "fibonacci-number",
