@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-10 23:45:30",
+        "title": "Min Cost Climbing Stairs",
+        "title_slug": "min-cost-climbing-stairs",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "79 ms",
+        "memory": "14 MB",
+        "code": "class Solution:\n    def minCostClimbingStairs(self, cost: List[int]) -> int:\n        cur, dp0 = 0, cost[0]\n\n        if len(cost) >= 2:\n            dp1 = cost[1]\n\n        for i in range(2, len(cost)):\n            cur = cost[i] + min(dp0, dp1)\n            dp0 = dp1\n            dp1 = cur\n\n        return min(dp0, dp1)"
+    },
+    {
         "timestamp": "2022-07-08 20:33:05",
         "title": "Paint House III",
         "title_slug": "paint-house-iii",
