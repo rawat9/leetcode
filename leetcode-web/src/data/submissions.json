@@ -1,5 +1,65 @@
 [
     {
+        "timestamp": "2022-07-15 21:07:21",
+        "title": "Max Area of Island",
+        "title_slug": "max-area-of-island",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "196 ms",
+        "memory": "17.9 MB",
+        "code": "class Solution:\n    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:\n        seen = set()\n        \n        def calc_area(r, c):\n            if not (0 <= r < len(grid) and 0 <= c < len(grid[0]) and (r, c) not in seen and grid[r][c]):\n                return 0\n            seen.add((r, c))\n            return (1 + calc_area(r+1, c) + calc_area(r-1, c) +\n                    calc_area(r, c-1) + calc_area(r, c+1))\n\n        return max(calc_area(r, c) for r in range(len(grid))\n                   for c in range(len(grid[0])))"
+    },
+    {
+        "timestamp": "2022-07-14 22:40:14",
+        "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+        "title_slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "65 ms",
+        "memory": "18.9 MB",
+        "code": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:\n\n        def array_to_tree(left, right):\n            nonlocal preorder_index\n            # if there are no elements to construct the tree\n            if left > right: return None\n\n            # select the preorder_index element as the root and increment it\n            root_value = preorder[preorder_index]\n            root = TreeNode(root_value)\n\n\n            preorder_index += 1\n            root.left = array_to_tree(left, inorder_index_map[root_value] - 1)\n            root.right = array_to_tree(inorder_index_map[root_value] + 1, right)\n\n            return root\n\n        preorder_index = 0\n\n        # build a hashmap to store value -> its index relations\n        inorder_index_map = {}\n        for index, value in enumerate(inorder):\n            inorder_index_map[value] = index\n\n        return array_to_tree(0, len(preorder) - 1)"
+    },
+    {
+        "timestamp": "2022-07-13 22:28:21",
+        "title": "Matchsticks to Square",
+        "title_slug": "matchsticks-to-square",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "7729 ms",
+        "memory": "14 MB",
+        "code": "class Solution:\n    def makesquare(self, matchsticks: List[int]) -> bool:\n        if not matchsticks:\n            return False\n\n        L = len(matchsticks)\n\n        perimeter = sum(matchsticks)\n\n        possible_side =  perimeter // 4\n        if possible_side * 4 != perimeter:\n            return False\n\n        matchsticks.sort(reverse=True)\n\n        sums = [0 for _ in range(4)]\n\n\n        def dfs(index):\n            if index == L:\n                return sums[0] == sums[1] == sums[2] == possible_side\n\n            for i in range(4):\n                if sums[i] + matchsticks[index] <= possible_side:\n                    # Recurse\n                    \n                    sums[i] += matchsticks[index]\n                    if dfs(index + 1):\n                        return True\n                    sums[i] -= matchsticks[index]\n            return False\n        \n        return dfs(0)"
+    },
+    {
+        "timestamp": "2022-07-13 22:25:12",
+        "title": "Binary Tree Level Order Traversal",
+        "title_slug": "binary-tree-level-order-traversal",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "38 ms",
+        "memory": "14.9 MB",
+        "code": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:\n        res = []\n        \n        def dfs(node, depth):\n            if not node: return\n            \n            if depth >= len(res):\n                res.append([])\n                \n            res[depth].append(node.val)\n            dfs(node.left, depth + 1)\n            dfs(node.right, depth + 1)\n        \n        dfs(root, 0)\n        return res"
+    },
+    {
+        "timestamp": "2022-07-12 20:34:43",
+        "title": "Binary Tree Right Side View",
+        "title_slug": "binary-tree-right-side-view",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "39 ms",
+        "memory": "13.8 MB",
+        "code": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def rightSideView(self, root: Optional[TreeNode]) -> List[int]:\n        res = []\n        def traverse(root, level):\n            if root:\n                if len(res) == level:\n                    res.append(root.val)\n                    \n                traverse(root.right, level + 1)\n                traverse(root.left, level + 1)\n            return \n\n        traverse(root,0)\n        return res\n"
+    },
+    {
+        "timestamp": "2022-07-12 20:30:39",
+        "title": "Jump Game VI",
+        "title_slug": "jump-game-vi",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "1032 ms",
+        "memory": "28 MB",
+        "code": "class Solution:\n    def maxResult(self, nums: List[int], k: int) -> int:\n        dp = deque([(nums[0], 0)])\n        \n        for i in range(1, len(nums)):\n            while dp and dp[0][1] + k < i:\n                dp.popleft()\n\n            price = nums[i] + dp[0][0]\n            while dp and price >= dp[-1][0]:\n                dp.pop()\n            dp.append((price, i))\n        return dp[-1][0]\n"
+    },
+    {
         "timestamp": "2022-07-10 23:45:30",
         "title": "Min Cost Climbing Stairs",
         "title_slug": "min-cost-climbing-stairs",
