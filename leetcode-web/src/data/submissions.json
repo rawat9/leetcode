@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-16 22:53:49",
+        "title": "Out of Boundary Paths",
+        "title_slug": "out-of-boundary-paths",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "5 ms",
+        "memory": "42.7 MB",
+        "code": "class Solution {\n\n  int M = 1000000007;\n\n  public int findPaths(int m, int n, int N, int i, int j) {\n\n    int[][][] memo = new int[m][n][N + 1];\n\n    for (int[][] l : memo) for (int[] sl : l) Arrays.fill(sl, -1);\n\n    return findPaths(m, n, N, i, j, memo);\n\n  }\n\n  public int findPaths(int m, int n, int N, int i, int j, int[][][] memo) {\n\n    if (i == m || j == n || i < 0 || j < 0) return 1;\n\n    if (N == 0) return 0;\n\n    if (memo[i][j][N] >= 0) return memo[i][j][N];\n\n    memo[i][j][N] = (\n\n        (findPaths(m, n, N - 1, i - 1, j, memo) + findPaths(m, n, N - 1, i + 1, j, memo)) % M +\n\n        (findPaths(m, n, N - 1, i, j - 1, memo) + findPaths(m, n, N - 1, i, j + 1, memo)) % M\n\n    ) % M;\n\n    return memo[i][j][N];\n\n  }\n\n}"
+    },
+    {
         "timestamp": "2022-07-15 21:07:21",
         "title": "Max Area of Island",
         "title_slug": "max-area-of-island",
