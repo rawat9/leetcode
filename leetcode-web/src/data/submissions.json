@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-17 22:28:24",
+        "title": "K Inverse Pairs Array",
+        "title_slug": "k-inverse-pairs-array",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "63 ms",
+        "memory": "64 MB",
+        "code": "class Solution {\n    Integer[][] memo = new Integer[1001][1001];\n    int M = 1000000007;\n    \n    public int kInversePairs(int n, int k) {\n        return ((inv(n, k) + M - (k > 0 ? inv(n, k - 1) : 0)) % M);\n    }\n    \n    public int inv(int n, int k) {\n        if (n == 0)\n            return 0;\n        if (k == 0)\n            return 1;\n        if (memo[n][k] != null)\n            return memo[n][k];\n        int val = (inv(n - 1, k) + M - ((k - n) >= 0 ? inv(n - 1, k - n) : 0)) % M;\n        memo[n][k] = (inv(n, k - 1) + val) % M;\n        return memo[n][k];\n    }\n}"
+    },
+    {
         "timestamp": "2022-07-16 22:53:49",
         "title": "Out of Boundary Paths",
         "title_slug": "out-of-boundary-paths",
