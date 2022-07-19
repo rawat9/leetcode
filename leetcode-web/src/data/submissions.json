@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-18 22:17:18",
+        "title": "Number of Submatrices That Sum to Target",
+        "title_slug": "number-of-submatrices-that-sum-to-target",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "183 ms",
+        "memory": "42.6 MB",
+        "code": "class Solution {\n    public int numSubmatrixSumTarget(int[][] matrix, int target) {\n        int row = matrix.length;\n        int col = matrix[0].length;\n        int res = 0;\n        //int[][] sum = new int[row][col];\n        \n        for(int i = 0; i < row; i++){\n            for(int j = 1; j < col; j++){\n                //sum[i][j] =sum[i][j-1] + matrix[i][j-1];\n                matrix[i][j] += matrix[i][j-1];\n            }\n        }\n        \n        for(int start = 0; start < col; start++){\n            for(int end = start; end < col; end++){\n                int subMatrixSum = 0;\n                \n                Map<Integer, Integer> countElm = new HashMap<Integer, Integer>();\n                countElm.put(0,1);\n                \n                for(int k = 0; k < row; k++){\n                    //subMatrixSum += sum[k][end] - sum[k][start];\n                    int prefixSum = start == 0 ? 0:matrix[k][start-1];\n                    subMatrixSum += matrix[k][end] - prefixSum;\n                    \n                    if(countElm.containsKey(subMatrixSum - target))\n                        res += countElm.get(subMatrixSum - target);\n                    \n                    int r = countElm.getOrDefault(subMatrixSum, 0);\n                    countElm.put(subMatrixSum, r+1);\n                }\n            }\n        }\n        \n        return res;\n    }\n}"
+    },
+    {
         "timestamp": "2022-07-17 22:28:24",
         "title": "K Inverse Pairs Array",
         "title_slug": "k-inverse-pairs-array",
