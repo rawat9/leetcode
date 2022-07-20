@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-19 23:11:14",
+        "title": "Pascal's Triangle",
+        "title_slug": "pascals-triangle",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "29 ms",
+        "memory": "13.8 MB",
+        "code": "class Solution:\n    def generate(self, numRows: int) -> List[List[int]]:\n        pascal_triangle = [[1 for _ in range(row + 1)] for row in range(numRows)]\n        \n        for row in range(numRows):\n            for col in range(1, row):\n                pascal_triangle[row][col] = pascal_triangle[row - 1][col] + pascal_triangle[row - 1][col - 1]\n        \n        return pascal_triangle"
+    },
+    {
         "timestamp": "2022-07-18 22:17:18",
         "title": "Number of Submatrices That Sum to Target",
         "title_slug": "number-of-submatrices-that-sum-to-target",
