@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-20 22:25:58",
+        "title": "Number of Matching Subsequences",
+        "title_slug": "number-of-matching-subsequences",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "508 ms",
+        "memory": "15.5 MB",
+        "code": "class Solution:\n    def numMatchingSubseq(self, s: str, words: List[str]) -> int:\n        def sub(st):\n\n            pos = -1\n\n            for char in st:\n\n                pos = s.find(char, pos+1)\n\n                if pos == -1: return False\n\n            return True\n\n        return sum(map(sub, words))"
+    },
+    {
         "timestamp": "2022-07-19 23:11:14",
         "title": "Pascal's Triangle",
         "title_slug": "pascals-triangle",
