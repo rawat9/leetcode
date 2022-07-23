@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-22 21:23:24",
+        "title": "Partition List",
+        "title_slug": "partition-list",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "44 ms",
+        "memory": "14 MB",
+        "code": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution(object):\n\n    def partition(self, head, x):\n        before = before_head = ListNode(0)\n        after = after_head = ListNode(0)\n\n        while head:\n            if head.val < x:\n                before.next = head\n                before = before.next\n            else:\n                after.next = head\n                after = after.next\n\n            head = head.next\n\n        after.next = None\n        before.next = after_head.next\n\n        return before_head.next\n        "
+    },
+    {
         "timestamp": "2022-07-21 21:54:05",
         "title": "Reverse Linked List II",
         "title_slug": "reverse-linked-list-ii",
