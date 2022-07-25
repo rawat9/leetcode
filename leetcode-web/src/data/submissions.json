@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-24 09:04:36",
+        "title": "Search a 2D Matrix II",
+        "title_slug": "search-a-2d-matrix-ii",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "12 ms",
+        "memory": "54.2 MB",
+        "code": "class Solution {\n    public boolean searchMatrix(int[][] matrix, int target) {\n        for (int[] row : matrix) {\n            if (Arrays.binarySearch(row, target) >= 0) {\n                return true;\n            }\n        }\n        return false;\n    }\n}"
+    },
+    {
         "timestamp": "2022-07-23 22:43:25",
         "title": "Count of Smaller Numbers After Self",
         "title_slug": "count-of-smaller-numbers-after-self",
