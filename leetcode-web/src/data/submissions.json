@@ -1,5 +1,25 @@
 [
     {
+        "timestamp": "2022-07-25 22:02:32",
+        "title": "Find First and Last Position of Element in Sorted Array",
+        "title_slug": "find-first-and-last-position-of-element-in-sorted-array",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "122 ms",
+        "memory": "15.4 MB",
+        "code": "class Solution:\n    def searchRange(self, nums: List[int], target: int) -> List[int]:\n        s = self.binary_search_left(nums, target, 0, len(nums)-1)\n        \n        if s == -1: return [-1, -1]\n        \n        e = self.binary_search_right(nums, target, 0, len(nums)-1)\n        return [s, e]\n\n    def binary_search_left(self, nums, target, start, end):\n        left_index = -1\n        \n        while end >= start:\n            mid = start + (end - start) // 2\n            \n            if nums[mid] == target:\n                left_index = mid\n            \n            if nums[mid] >= target:\n                end = mid - 1\n            else:\n                start = mid + 1\n\n        return left_index\n    \n    def binary_search_right(self, nums, target, start, end):\n        right_index = -1\n        \n        while end >= start:\n            mid = start + (end - start) // 2\n            \n            if nums[mid] == target:\n                right_index = mid\n            \n            if nums[mid] <= target:\n                start = mid + 1\n            else:\n                end = mid - 1\n\n        return right_index"
+    },
+    {
+        "timestamp": "2022-07-25 21:59:35",
+        "title": "Find First and Last Position of Element in Sorted Array",
+        "title_slug": "find-first-and-last-position-of-element-in-sorted-array",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "145 ms",
+        "memory": "15.5 MB",
+        "code": "from bisect import bisect, bisect_left\n\nclass Solution:\n    def searchRange(self, nums: List[int], target: int) -> List[int]:\n        s = self.binary_search_left(nums, target, 0, len(nums)-1)\n        \n        if s == -1: return [-1, -1]\n        \n        e = self.binary_search_right(nums, target, 0, len(nums)-1)\n        return [s, e]\n\n    def binary_search_left(self, nums, target, start, end):\n        left_index = -1\n        \n        while end >= start:\n            mid = start + (end - start) // 2\n            \n            if nums[mid] == target:\n                left_index = mid\n            \n            if nums[mid] >= target:\n                end = mid - 1\n            else:\n                start = mid + 1\n\n        return left_index\n    \n    def binary_search_right(self, nums, target, start, end):\n        right_index = -1\n        \n        while end >= start:\n            mid = start + (end - start) // 2\n            \n            if nums[mid] == target:\n                right_index = mid\n            \n            if nums[mid] <= target:\n                start = mid + 1\n            else:\n                end = mid - 1\n\n        return right_index"
+    },
+    {
         "timestamp": "2022-07-24 09:04:36",
         "title": "Search a 2D Matrix II",
         "title_slug": "search-a-2d-matrix-ii",
