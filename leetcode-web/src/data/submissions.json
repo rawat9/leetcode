@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-26 21:56:46",
+        "title": "Lowest Common Ancestor of a Binary Tree",
+        "title_slug": "lowest-common-ancestor-of-a-binary-tree",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "82 ms",
+        "memory": "26.2 MB",
+        "code": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def __init__(self):\n        # variable to store LCA node.\n        self.ans = None\n\n    def lowestCommonAncestor(self, root, p, q):\n        def recurse_tree(current_node):\n\n            # end of a branch? return False\n            if not current_node:\n                return False\n\n            # recurse left\n            left = recurse_tree(current_node.left)\n\n            # recurse right\n            right = recurse_tree(current_node.right)\n\n            # if the current node is => p or q\n            mid = current_node == p or current_node == q\n\n            # if any two of the three flags left, right or mid become True.\n            if mid + left + right >= 2:\n                self.ans = current_node\n\n            # Return True if either of the three bool values is True.\n            return mid or left or right\n\n        recurse_tree(root)\n        return self.ans"
+    },
+    {
         "timestamp": "2022-07-25 22:02:32",
         "title": "Find First and Last Position of Element in Sorted Array",
         "title_slug": "find-first-and-last-position-of-element-in-sorted-array",
