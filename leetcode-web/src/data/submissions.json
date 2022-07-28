@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-27 20:55:54",
+        "title": "Flatten Binary Tree to Linked List",
+        "title_slug": "flatten-binary-tree-to-linked-list",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "49 ms",
+        "memory": "15.2 MB",
+        "code": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def flatten(self, root: Optional[TreeNode]) -> None:\n        \"\"\"\n        Do not return anything, modify root in-place instead.\n        \"\"\"\n        if not root:\n            return\n        \n        vals = []\n        def preOrder(root):\n            if root is None:\n                return\n            vals.append(root)\n            preOrder(root.left)\n            preOrder(root.right)\n        \n        preOrder(root)\n        \n        # last node \n        vals[-1].left = None\n        vals[-1].right = None\n        \n        for i in range(len(vals)-1): \n            vals[i].left = None\n            vals[i].right = vals[i+1]\n        return vals"
+    },
+    {
         "timestamp": "2022-07-26 21:56:46",
         "title": "Lowest Common Ancestor of a Binary Tree",
         "title_slug": "lowest-common-ancestor-of-a-binary-tree",
