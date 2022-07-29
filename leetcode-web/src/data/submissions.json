@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-28 21:01:42",
+        "title": "Valid Anagram",
+        "title_slug": "valid-anagram",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "92 ms",
+        "memory": "15 MB",
+        "code": "class Solution:\n    def isAnagram(self, s: str, t: str) -> bool:\n        return sorted(s) == sorted(t)"
+    },
+    {
         "timestamp": "2022-07-27 20:55:54",
         "title": "Flatten Binary Tree to Linked List",
         "title_slug": "flatten-binary-tree-to-linked-list",
