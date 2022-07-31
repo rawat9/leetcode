@@ -1,5 +1,25 @@
 [
     {
+        "timestamp": "2022-07-30 22:11:52",
+        "title": "Word Subsets",
+        "title_slug": "word-subsets",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "1251 ms",
+        "memory": "18.5 MB",
+        "code": "class Solution:\n    def wordSubsets(self, words1: List[str], words2: List[str]) -> List[str]:\n        def count(word):\n            ans = [0] * 26\n            for letter in word:\n                ans[ord(letter) - ord('a')] += 1\n            return ans\n\n        bmax = [0] * 26\n        for b in words2:\n            for i, c in enumerate(count(b)):\n                bmax[i] = max(bmax[i], c)\n\n        res = []\n        for a in words1:\n            if all(x >= y for x, y in zip(count(a), bmax)):\n                res.append(a)\n        return res"
+    },
+    {
+        "timestamp": "2022-07-29 23:01:17",
+        "title": "Find and Replace Pattern",
+        "title_slug": "find-and-replace-pattern",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "39 ms",
+        "memory": "14 MB",
+        "code": "class Solution:\n    def findAndReplacePattern(self, words: List[str], pattern: str) -> List[str]:\n        def match(word):\n            hmap= {}\n            for p, w in zip(pattern, word):\n                if hmap.setdefault(p, w) != w:\n                    return False\n            return len(set(hmap.values())) == len(hmap.values())\n\n        return filter(match, words)"
+    },
+    {
         "timestamp": "2022-07-28 21:01:42",
         "title": "Valid Anagram",
         "title_slug": "valid-anagram",
