@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-07-31 13:55:39",
+        "title": "Range Sum Query - Mutable",
+        "title_slug": "range-sum-query-mutable",
+        "status": "Accepted",
+        "lang": "java",
+        "runtime": "172 ms",
+        "memory": "138.9 MB",
+        "code": "class NumArray {\n    private int[] b;\n    private int len;\n    private int[] nums;\n\n    public NumArray(int[] nums) {\n        this.nums = nums;\n        double l = Math.sqrt(nums.length);\n        len = (int) Math.ceil(nums.length/l);\n        b = new int [len];\n        for (int i = 0; i < nums.length; i++)\n            b[i / len] += nums[i];\n    }\n    \n    public void update(int index, int val) {\n        int b_l = index / len;\n        b[b_l] = b[b_l] - nums[index] + val;\n        nums[index] = val;\n    }\n    \n    public int sumRange(int left, int right) {\n        int sum = 0;\n        int startBlock = left / len;\n        int endBlock = right / len;\n        if (startBlock == endBlock) {\n            for (int k = left; k <= right; k++)\n                sum += nums[k];\n        } else {\n            for (int k = left; k <= (startBlock + 1) * len - 1; k++)\n                sum += nums[k];\n            for (int k = startBlock + 1; k <= endBlock - 1; k++)\n                sum += b[k];\n            for (int k = endBlock * len; k <= right; k++)\n                sum += nums[k];\n        }\n        return sum;\n    }\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * NumArray obj = new NumArray(nums);\n * obj.update(index,val);\n * int param_2 = obj.sumRange(left,right);\n */"
+    },
+    {
         "timestamp": "2022-07-30 22:11:52",
         "title": "Word Subsets",
         "title_slug": "word-subsets",
