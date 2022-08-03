@@ -1,5 +1,25 @@
 [
     {
+        "timestamp": "2022-08-02 22:01:13",
+        "title": "Kth Smallest Element in a Sorted Matrix",
+        "title_slug": "kth-smallest-element-in-a-sorted-matrix",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "217 ms",
+        "memory": "18.9 MB",
+        "code": "class Solution:\n    def kthSmallest(self, matrix: List[List[int]], k: int) -> int:\n        return sorted(sum(matrix, []))[k-1] \n"
+    },
+    {
+        "timestamp": "2022-08-02 22:01:00",
+        "title": "Kth Smallest Element in a Sorted Matrix",
+        "title_slug": "kth-smallest-element-in-a-sorted-matrix",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "185 ms",
+        "memory": "19.1 MB",
+        "code": "class Solution:\n    def kthSmallest(self, matrix: List[List[int]], k: int) -> int:\n        return sorted(sum(matrix,[]))[k-1] \n"
+    },
+    {
         "timestamp": "2022-08-01 22:46:02",
         "title": "Unique Paths",
         "title_slug": "unique-paths",
