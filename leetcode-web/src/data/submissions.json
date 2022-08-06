@@ -1,5 +1,15 @@
 [
     {
+        "timestamp": "2022-08-05 23:28:22",
+        "title": "Combination Sum IV",
+        "title_slug": "combination-sum-iv",
+        "status": "Accepted",
+        "lang": "python3",
+        "runtime": "58 ms",
+        "memory": "13.9 MB",
+        "code": "class Solution:\n    def combinationSum4(self, nums: List[int], target: int) -> int:\n        dp = [0] * (target+1)\n\n        dp[0] = 1\n\n        for i in range(1, target+1):\n\n            for num in nums: \n\n                num_before = i - num\n\n                if num_before >= 0:\n\n                    dp[i] += dp[num_before]\n\n        return dp[target]"
+    },
+    {
         "timestamp": "2022-08-03 22:13:18",
         "title": "My Calendar I",
         "title_slug": "my-calendar-i",
